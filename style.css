@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+  background-color:#090B0D;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div::after,
+header::after,
+nav::after,
+section::after,
+article::after,
+footer::after {
+  content: '';
+  display:block;
+  clear:both;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+  width:100%;
+}
+
+.stars {
+  background-image: url(images/stars.png);
+  background-size: cover;
+  background-position: center;
+  max-width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 214px;
+}
+
+.logo h1 {
+  text-align: center;
+  color:#ffe81f;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2rem;
+  padding: 1.5em 0;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.fa-bars {
+  border-style: none;
+  font-size:3rem;
+  background:transparent;
+  cursor:pointer;
+  padding:1.5em;
+  color:#ffe81f;
+  position: fixed;
+  z-index:998;
+  right:0;
+}
+
+.np {
+  background: transparent;
+  border-style:none;
+  color: pointer;
+  color:#ffe81f;
+  font-size:4rem;
+}
+
+/* ---------- NAVIGACIJA ---------- */
+
+.gl-meni {
+  text-align:left;
+  background:black;
+  position:fixed;
+  z-index:999;
+  height:100vh;
+  right:0;
+  display:none;
+}
+
+.gl-meni ul {
+  padding:2em;
+}
+
+.gl-meni li {
+  padding:1em;
+}
+
+.gl-meni a {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gl-meni li:last-child {
+  margin-top:5rem;
+}
+
+.gl-meni a:hover, .gl-meni a:focus {
+  color:#ffe81f;
+}
+
+.log-reg {
+  background:transparent;
+  border:2px solid #ffe81f;
+  padding:1em;
+  cursor: pointer;
+  color:#ffe81f;
+  font-size:2rem;
+  font-weight:900;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+}
+
+.log-reg:hover, .log-reg:focus {
+  background:#ffe81f;
+  color:black;
+}
+
+/* ---------- GLUMCI ---------- */
+
+.glumci {
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.actor {
+  width:20%;
+  float:left;
+  color:#ffe81f;
+  margin:3em .5em;
+  padding:3em;
+  text-align:center;
+}
+
+.actor img {
+  width:64px;
+  height:64px;
+  border-radius: 100%;
+  margin-bottom: 1em;
+}
+
+.actor h2 {
+  margin-bottom: .5em;
+  font-size:2rem;
+}
+
+.actor p {
+  font-size:1.5rem;
+}
