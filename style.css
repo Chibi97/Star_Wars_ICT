@@ -104,7 +104,7 @@ header {
 
 .gl-meni {
   text-align:left;
-  background:black;
+  background: rgba(0,0,0, 0.3);
   position:fixed;
   z-index:999;
   height:100vh;
@@ -121,8 +121,9 @@ header {
 
 .gl-meni a {
   color: white;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 3.2rem;
+  font-weight: 900;
+  font-family: 'Inconsolata', sans-serif;
 }
 
 .gl-meni li:last-child {
@@ -141,7 +142,6 @@ header {
   color:#ffe81f;
   font-size:2rem;
   font-weight:900;
-  text-transform: uppercase;
   font-family: 'Inconsolata', monospace;
 }
 
