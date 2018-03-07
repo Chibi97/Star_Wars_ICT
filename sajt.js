@@ -1,9 +1,3 @@
-function createFromTemplate() {
-  var temp = '<button class="fas fa-caret-up" id="strelica"></buttons>';
-  var element = $(temp);
-  $("body").append(element);
-}
-
 $(document).ready(function() {
   var sendvic = $("#sandwich");
   var iks = $("#x");
@@ -11,17 +5,15 @@ $(document).ready(function() {
   var aniSpeed = 500;
   createFromTemplate();
 
-  var isScrollingAnimate = false;
+  //var isScrollingAnimate = false;
   $("#strelica").click(function() {
-    isScrollingAnimate = true;
-    $("html").animate({scrollTop: 0}, 200, function() {
-      isScrollingAnimate = false;
-    });
+    //isScrollingAnimate = true;
+    $("html").animate({scrollTop: 0}, 200);
     $("#strelica").fadeOut();
   });
 
   $(document).scroll(function() {
-    if(isScrollingAnimate) return;
+    //if(isScrollingAnimate) return;
     if($("html").scrollTop() == 0) {
       $("#strelica").fadeOut();
     }
@@ -47,7 +39,13 @@ $(document).ready(function() {
 
     sendvic.show();
     glMeni.animate({
-      right:"-25%"
+      right:"-28rem"
     }, aniSpeed);
   })
 });
+
+function createFromTemplate() {
+  var temp = '<button class="fas fa-chevron-circle-up" id="strelica"></buttons>';
+  var element = $(temp);
+  $("body").append(element);
+}

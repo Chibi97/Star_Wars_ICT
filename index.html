@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Star Wars</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: jos meta tagova! -->
+    <link rel="shortcut icon" href="images/dvfavicon.ico" >
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway|Dosis:700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="sajt.js"></script>
   </head>
   <body>
     <header>
@@ -23,6 +23,9 @@
           </li>
           <li>
             <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">News</a>
           </li>
           <li>
             <a href="#">Author</a>
@@ -44,32 +47,85 @@
       </section>
     </header>
 
-    <section class="glumci">
-      <!-- <button class="fas fa-chevron-left" id="np"></button> -->
-      <article class="actor">
-        <img alt="prvi" src="images/harison.jpg"/>
-        <h2>Harrison Ford</h2>
-        <p>Han Solo</p>
-      </article>
+    <div class="wrapper">
+      <hr />
+      <section class="actors">
+        <h1 class="heading">Actors</h1>
+        <button class="fas fa-chevron-left prev"></button>
+        <article class="actor">
+          <img alt="prvi" src="images/harison.jpg"/>
+          <h2>Harrison Ford</h2>
+          <p>Han Solo</p>
+        </article>
 
-      <article class="actor">
-        <img alt="prvi" src="images/mark.jpg"/>
-        <h2>Mark Hamill</h2>
-        <p>Luke Skywalker</p>
-      </article>
+        <article class="actor">
+          <img alt="prvi" src="images/mark.jpg"/>
+          <h2>Mark Hamill</h2>
+          <p>Luke Skywalker</p>
+        </article>
 
-      <article class="actor">
-        <img alt="prvi" src="images/carrie.jpg"/>
-        <h2>Carrie Fisher</h2>
-        <p>Leia Organa</p>
-      </article>
+        <article class="actor">
+          <img alt="prvi" src="images/carrie.jpg"/>
+          <h2>Carrie Fisher</h2>
+          <p>Leia Organa</p>
+        </article>
 
-      <article class="actor">
-        <img alt="prvi" src="images/daisy.jpg"/>
-        <h2>Daisy Ridley</h2>
-        <p>Ray</p>
-      </article>
-      <!-- <button class="fas fa-angle-right np"></button> -->
-    </section>
+        <article class="actor">
+          <img alt="prvi" src="images/daisy.jpg"/>
+          <h2>Daisy Ridley</h2>
+          <p>Ray</p>
+        </article>
+        <button class="fas fa-chevron-right next"></button>
+      </section>
+
+      <hr />
+      <div class="news-wrapper">
+      <h1 class="heading">Latest news</h1>
+        <section class="left">
+          <article>
+            <img src="images/news1.jpg" alt="news1 img"/>
+            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
+            <p>
+              ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy. (There are spoilers ahead in both the video and our breakdown, so proceed with caution.) It’s sound that gives each digital character weight and personality, making everything from the tiniest gestures to the big climactic moments feel authentic. Behind the scenes, there’s a team of audio experts at work to find the perfect noise to evoke emotion or heighten drama through an extensively layered mix or, sometimes, the complete absence of sound.
+            </p>
+          </article>
+        </section>
+
+        <section class="right">
+          <article class="news">
+            <img src="images/news1.jpg" alt="news2 img"/>
+            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
+          </article>
+
+          <article class="news">
+            <img src="images/news1.jpg" alt="news3 img"/>
+            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
+          </article>
+
+          <article class="news">
+            <img src="images/news1.jpg" alt="news4 img"/>
+            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
+          </article>
+        </section>
+      </div>
+
+
+    </div>
+
+    <footer>
+      <div class="wrapper">
+        <div id="cto">
+          <a href="https://www.facebook.com/StarWars" class="fab fa-facebook" target="_blank"></a>
+          <a href="https://twitter.com/starwars" class="fab fa-twitter" target="_blank"></a>
+          <a href="https://www.instagram.com/starwars/" class="fab fa-instagram" target="_blank"></a>
+          <a href="https://www.youtube.com/user/starwars" class="fab fa-youtube" target="_blank"></a>
+          <a href="http://www.imdb.com/title/tt2527336/" class="fab fa-imdb" target="_blank"></a>
+          <a href="https://starwars.tumblr.com/" class="fab fa-tumblr" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="sajt.js"></script>
   </body>
 </html>
