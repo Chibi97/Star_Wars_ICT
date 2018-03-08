@@ -41,47 +41,7 @@ li {
   list-style-type: none;
 }
 
-/* ---------- HEADER ---------- */
-header {
-  width:100%;
-  margin-bottom: 2em;
-}
-
-.stars {
-  background-image: url(images/stars2.png);
-  background-size: cover;
-  background-position: center;
-  height:100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo img {
-  height: 214px;
-}
-
-.logo h1 {
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-  font-size: 2rem;
-  padding: 1.5em 0;
-}
-
-@media (max-width: 480px) {
-  .logo img {
-    display:block;
-    margin: 0 auto;
-    height:130px;
-  }
-
-  .logo h1 {
-    font-size:1.6rem;
-  }
-}
-
 /* ---------- BUTTONS ---------- */
-
 #sandwich, #x, #strelica {
   border-style: none;
   font-size:3rem;
@@ -121,8 +81,46 @@ header {
   margin:.7em;
 }
 
-/* ---------- NAVIGACIJA ---------- */
+/* ---------- HEADER ---------- */
+header {
+  width:100%;
+  margin-bottom: 2em;
+}
 
+.stars {
+  background-image: url(images/stars2.png);
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 214px;
+}
+
+.logo h1 {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2rem;
+  padding: 1.5em 0;
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    display:block;
+    margin: 0 auto;
+    height:130px;
+  }
+
+  .logo h1 {
+    font-size:1.6rem;
+  }
+}
+
+/* ---------- NAVIGATION ---------- */
 .gl-meni {
   text-align:left;
   /*background: rgba(0,0,0, 0.3); */
@@ -173,7 +171,7 @@ header {
   color:black;
 }
 
-/* ---------- GLUMCI ---------- */
+/* ---------- ACTORS ---------- */
 
 .actors {
   margin: 5em 0;
@@ -256,6 +254,17 @@ hr {
   position:relative;
   border-color:#ffd81f;
   background: #ffd81f;
+}
+
+@media (max-width: 320px) {
+  .actor img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .actor {
+    font-size: .5rem;
+  }
 }
 
 @media (max-width: 650px) {

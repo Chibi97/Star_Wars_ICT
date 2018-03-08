@@ -33,10 +33,6 @@ $(document).ready(function() {
   });
 
   iks.click(function() {
-    /*glMeni.css({
-      display:"none"
-    });*/
-
     sendvic.show();
     glMeni.animate({
       right:"-28rem"

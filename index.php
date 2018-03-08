@@ -52,29 +52,7 @@
       <section class="actors">
         <h1 class="heading">Actors</h1>
         <button class="fas fa-chevron-left prev"></button>
-        <article class="actor">
-          <img alt="prvi" src="images/harrison.jpg"/>
-          <h2>Harrison Ford</h2>
-          <p>Han Solo</p>
-        </article>
 
-        <article class="actor">
-          <img alt="prvi" src="images/mark.jpg"/>
-          <h2>Mark Hamill</h2>
-          <p>Luke Skywalker</p>
-        </article>
-
-        <article class="actor">
-          <img alt="prvi" src="images/carrie.jpg"/>
-          <h2>Carrie Fisher</h2>
-          <p>Leia Organa</p>
-        </article>
-
-        <article class="actor">
-          <img alt="prvi" src="images/daisy.jpg"/>
-          <h2>Daisy Ridley</h2>
-          <p>Ray</p>
-        </article>
         <button class="fas fa-chevron-right next"></button>
       </section>
 
@@ -124,6 +102,8 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="sajt.js"></script>
+    <script src="skripte/sajt.js"></script>
+    <script src="skripte/actors.js"></script>
+
   </body>
 </html>
