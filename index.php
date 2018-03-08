@@ -53,7 +53,7 @@
         <h1 class="heading">Actors</h1>
         <button class="fas fa-chevron-left prev"></button>
         <article class="actor">
-          <img alt="prvi" src="images/harison.jpg"/>
+          <img alt="prvi" src="images/harrison.jpg"/>
           <h2>Harrison Ford</h2>
           <p>Han Solo</p>
         </article>

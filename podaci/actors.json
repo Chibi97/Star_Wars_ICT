@@ -1,101 +1,262 @@
 [
   {
-  "name": "Harrison Ford",
-  "role": "Han Solo",
-  "image": {
-    "src": "images/harison.jpg",
-    "alt": "harrison"
-  }
-},
+    "name": "Harrison Ford",
+    "role": "Han Solo",
+    "image": {
+      "src": "images/harrison.jpg",
+      "alt": "harrison"
+    },
+    "film" : 7
+  },
 
-{
-  "name": "Mark Hamill",
-  "role": "Luke Skywalker",
-  "image": {
-    "src": "images/mark.jpg",
-    "alt": "mark"
-  }
-},
+  {
+    "name": "Mark Hamill",
+    "role": "Luke Skywalker",
+    "image": {
+      "src": "images/mark.jpg",
+      "alt": "mark"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Carrie Fisher",
+    "role": "Leia Organa",
+    "image": {
+      "src": "images/carrie.jpg",
+      "alt": "carrie"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Daisy Ridley",
+    "role": "Ray",
+    "image": {
+      "src": "images/daisy.jpg",
+      "alt": "daisy"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Adam Driver",
+    "role": "Kylo Ren",
+    "image": {
+      "src": "images/adam.jpg",
+      "alt": "adam"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Anthony Daniels",
+    "role": "C-3PO",
+    "image": {
+      "src": "images/anthony.jpg",
+      "alt": "anthony"
+    },
+    "film" : 8
+  },
+
+   {
+    "name": "Frank Oz",
+    "role": "Yoda",
+    "image": {
+      "src": "images/frank.jpg",
+      "alt": "frank"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "John Boyega",
+    "role": "Finn",
+    "image": {
+      "src": "images/john.jpg",
+      "alt": "john"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Oscar Isaac",
+    "role": "Poe Dameron",
+    "image": {
+      "src": "images/oscar.jpg",
+      "alt": "oscar"
+    },
+    "film" : 8
+  },
+
+  {
+    "name": "Andy Serkis",
+    "role": "Supreme Leader Snoke",
+    "image": {
+      "src": "images/andy.jpg",
+      "alt": "andy"
+    },
+    "film" : 8
+  },
+
+  {
+   "name": "Ewan McGregor",
+   "role": "Obi-Wan Kenobi young",
+   "image": {
+     "src": "images/ewan.jpg",
+     "alt": "ewan"
+   },
+   "film" : 6
+  },
+
+  {
+   "name": "Alec Guinness",
+   "role": "Obi-Wan Kenobi",
+   "image": {
+     "src": "images/alec.jpg",
+     "alt": "alec"
+   },
+   "film" : 3
+  },
+
+  {
+   "name": "Natalie Portman",
+   "role": "Padmé (Queen Amidala)",
+   "image": {
+     "src": "images/natalie.jpg",
+     "alt": "natalie"
+   },
+   "film" : 6
+  },
+
+  {
+   "name": "Liam Neeson",
+   "role": "Qui-Gon Jinn",
+   "image": {
+     "src": "images/liam.jpg",
+     "alt": "liam"
+   },
+   "film" : 4
+  },
+
+  {
+   "name": "Ian McDiarmid",
+   "role": "Senator Palpatine",
+   "image": {
+     "src": "images/ian.jpg",
+     "alt": "ian"
+   },
+   "film" : 6
+  },
+
+  {
+   "name": "Ahmed Best",
+   "role": "Jar Jar Binks",
+   "image": {
+     "src": "images/ahmed.jpg",
+     "alt": "ahmed"
+   },
+   "film" : 4
+  },
+
+  {
+   "name": "Kenny Baker",
+   "role": "R2-D2",
+   "image": {
+     "src": "images/kenny.jpg",
+     "alt": "kenny"
+   },
+   "film" : 3
+ },
 
  {
-  "name": "Mark Hamill",
-  "role": "Luke Skywalker",
+  "name": "David Prowse",
+  "role": "Darth Vader",
   "image": {
-    "src": "images/mark.jpg",
-    "alt": "mark"
-  }
-},
-
-{
-  "name": "Carrie Fisher",
-  "role": "Leia Organa",
-  "image": {
-    "src": "images/carrie.jpg",
-    "alt": "carrie"
-  }
-},
-
-{
-  "name": "Daisy Ridley",
-  "role": "Ray",
-  "image": {
-    "src": "images/dasiy.jpg",
-    "alt": "daisy"
-  }
-},
-
-{
-  "name": "Adam Driver",
-  "role": "Kylo Ren",
-  "image": {
-    "src": "images/adam.jpg",
-    "alt": "adam"
-  }
-},
-
-{
-  "name": "Anthony Daniels",
-  "role": "C-3PO",
-  "image": {
-    "src": "images/anthony.jpg",
-    "alt": "anthony"
-  }
-},
+    "src": "images/david.jpg",
+    "alt": "david"
+  },
+  "film" : 3
+ },
 
  {
-  "name": "Frank Oz",
-  "role": "Yoda",
+  "name": "Peter Mayhew",
+  "role": "Chewbacca",
   "image": {
-    "src": "images/frank.jpg",
-    "alt": "frank"
-  }
-},
-
-{
-  "name": "John Boyega",
-  "role": "Finn",
-  "image": {
-    "src": "images/john.jpg",
-    "alt": "john"
-  }
-},
-
-{
-  "name": "Oscar Isaac",
-  "role": "Poe Dameron",
-  "image": {
-    "src": "images/oscar.jpg",
-    "alt": "oscar"
-  }
-},
+    "src": "images/peter.jpg",
+    "alt": "peter"
+  },
+  "film" : 7
+ },
 
  {
-  "name": "Andy Serkis",
-  "role": "Snoke",
+  "name": "Christofer Lee",
+  "role": "Count Dooku",
   "image": {
-    "src": "images/oscar.jpg",
-    "alt": "oscar"
+    "src": "images/christofer.jpg",
+    "alt": "christofer"
+  },
+  "film" : 6
+ },
+
+ {
+  "name": "Samuel L. Jackson",
+  "role": "Mace Windu",
+  "image": {
+    "src": "images/samuel.jpg",
+    "alt": "samuel"
+  },
+  "film" : 6
+ },
+
+ {
+  "name": "Peter Cushing",
+  "role": "Grand Moff Tarkin",
+  "image": {
+    "src": "images/peter_cush.jpg",
+    "alt": "peter cushing"
+  },
+  "film" : 1
+ },
+
+ {
+  "name": "Billy Dee Williams",
+  "role": "Lando Calrissian",
+  "image": {
+    "src": "images/billy.jpg",
+    "alt": "billy"
+  },
+  "film" : 3
+ },
+
+ {
+  "name": "Jeremy Bulloch",
+  "role": "Boba Fett",
+  "image": {
+    "src": "images/jeremy.jpg",
+    "alt": "jeremy"
+  },
+  "film" : 6
+ },
+
+ {
+  "name": "Hayden Christensen",
+  "role": "Anakin Skywalker",
+  "image": {
+    "src": "images/hayden.jpg",
+    "alt": "hayden"
+  },
+  "film" : 6
+  },
+
+  {
+   "name": "Temuera Morrison",
+   "role": "Jango Fett",
+   "image": {
+     "src": "images/temuera.jpg",
+     "alt": "temuera"
+   },
+   "film" : 6
   }
-}
 
 ]
