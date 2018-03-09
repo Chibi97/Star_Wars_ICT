@@ -52,7 +52,7 @@
       <section class="actors">
         <h1 class="heading">Actors</h1>
         <button class="fas fa-chevron-left prev"></button>
-
+        
         <button class="fas fa-chevron-right next"></button>
       </section>
 
