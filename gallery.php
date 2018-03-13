@@ -73,8 +73,13 @@
           <a href="https://www.youtube.com/user/starwars" class="fab fa-youtube" target="_blank"></a>
           <a href="http://www.imdb.com/title/tt2527336/" class="fab fa-imdb" target="_blank"></a>
           <a href="https://starwars.tumblr.com/" class="fab fa-tumblr" target="_blank"></a>
-        </div>
-      </div>
+
+          <div id="disclaimer">
+            <p>Design by &copy; Olja Ivković<br/>
+         This site is a project for ICT College, made for educational purposes. I don't intend to profit nor gain any rights. All rights go to their rightful owners. </p>
+         </div>
+       </div>
+    </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
