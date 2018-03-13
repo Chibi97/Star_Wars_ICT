@@ -52,7 +52,7 @@
       <section class="actors">
         <h1 class="heading">Actors</h1>
         <button class="fas fa-chevron-left prev"></button>
-        
+
         <button class="fas fa-chevron-right next"></button>
       </section>
 
@@ -61,7 +61,7 @@
       <h1 class="heading">Latest news</h1>
         <section class="col left">
           <article>
-            <img src="images/news1-large.jpg" alt="news1 img"/>
+            <img src="images/news/news1-large.jpg" alt="news1 img"/>
             <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
             <p>
               ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution).
@@ -71,17 +71,17 @@
 
         <section class="col right">
           <article class="news">
-            <img src="images/news1.jpg" alt="news2 img"/>
+            <img src="images/news/news1.jpg" alt="news2 img"/>
             <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
           </article>
 
           <article class="news">
-            <img src="images/news1.jpg" alt="news3 img"/>
+            <img src="images/news/news1.jpg" alt="news3 img"/>
             <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
           </article>
 
           <article class="news">
-            <img src="images/news1.jpg" alt="news4 img"/>
+            <img src="images/news/news1.jpg" alt="news4 img"/>
             <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
           </article>
         </section>
@@ -97,8 +97,13 @@
           <a href="https://www.youtube.com/user/starwars" class="fab fa-youtube" target="_blank"></a>
           <a href="http://www.imdb.com/title/tt2527336/" class="fab fa-imdb" target="_blank"></a>
           <a href="https://starwars.tumblr.com/" class="fab fa-tumblr" target="_blank"></a>
-        </div>
-      </div>
+
+          <div id="disclaimer">
+            <p>Design by &copy; Olja Ivković<br/>
+         This site is a project for ICT College, made for educational purposes. I don't intend to profit nor gain any rights. All rights go to their rightful owners. </p>
+         </div>
+       </div>
+    </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

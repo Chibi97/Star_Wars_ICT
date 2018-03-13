@@ -1,0 +1,41 @@
+[
+  {
+    "heading" : "WHY THE LAST JEDI IS A POWERFUL FABLE ON THE IMPORTANCE OF TEACHING",
+    "images" : [
+      {
+        "src" : "images/news/news.news3_1",
+        "alt" : "yoda"
+      },
+
+      {
+        "src" : "images/news/news.news3_2",
+        "alt" : "luke skywalker"
+      },
+
+      {
+        "src" : "images/news/news.news3_3",
+        "alt" : "ray"
+      },
+
+      {
+        "src" : "images/news/news.news3_4",
+        "alt" : "ray and luke"
+      },
+
+      {
+        "src" : "images/news/news.news2_5",
+        "alt" : "mark hamill sitting"
+      }
+    ],
+
+    "content" : [
+      "Teaching and learning is among the most prevalent motifs in Star Wars, particularly in Star Wars: The Last Jedi. The mentor figure instructs the willing student in the ways of the Force. However, it’s not that cut and dry in Rian Johnson’s film. It’s much more of an unorthodox process for the Force-wielders on Ahch-To, and provides a masterful commentary on what pedagogy is all about.",
+
+      "<strong>Yoda</strong>
+      Perhaps no Star Wars instructor demonstrates this better than Yoda. He appears to call down lightning on the uneti tree and destroys the bound library of Jedi knowledge, much to Luke’s shock and consternation. Yoda is modeling a valuable tool used by many educators: adaptability. As a teacher, you may have an airtight lesson, but if you do not know your students, the lesson may fall flat. Hence, the need to modify the initial plan to best serve the needs of the learner. Yoda knows Luke is hurting, encourages him to take himself a little less seriously, and tells him failure is the best teacher. An unconventional philosophy for some, but Yoda sees things in a much more enlightened way.",
+
+      "<strong>Luke Skywalker</strong>
+      Since the time when he bravely threw down his lightsaber in the Emperor's throne room, his faith in himself and the Force has waned; he believes the Jedi viewpoint and philosophy is part of what led to his perceived failure with Ben Solo and his plan to resurrect the Jedi Order. He has forgotten how to adapt and modify his point of view. He thinks he failed the galaxy, and is temporarily incapable of seeing things from a different perspective. He goes so far as to close himself off from the Force, which is problematic, considering that the Force is a big part of who the Jedi Master is. In short, his failure is complete, or so he thinks.  Luke blames himself for Ben Solo’s fall to the dark side. Ben Solo made his own choice to turn to the dark side, but Luke does not appear to acknowledge this fact. Instead, he turns to his own pride and conceit, which inadvertently helps catapult the galaxy into further turmoil. Failure is the greatest teacher, but you have to be willing to embrace this, turn from hubris, and learn from your mistakes."
+    ]
+  }
+]

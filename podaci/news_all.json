@@ -1,0 +1,29 @@
+[
+  {
+    "heading" : "5 THINGS WE LEARNED FROM THE FORCE OF SOUND",
+    "image" : {
+      "src" : "images/news/news1.jpg",
+      "alt" : "Force of sound",
+    },
+    "desc" : "ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution)."
+  },
+
+  {
+    "heading" : "MARK HAMILL HONORED WITH STAR ON HOLLYWOOD WALK OF FAME",
+    "image" : {
+      "src" : "images/news/news2.jpg",
+      "alt" : "Mark Walk of Fame",
+    }
+  },
+
+  {
+    "heading" : "WHY THE LAST JEDI IS A POWERFUL FABLE ON THE IMPORTANCE OF TEACHING",
+    "image" : {
+      "src" : "images/news/news3.jpg",
+      "alt" : "Mark Walk of Fame",
+    }
+  },
+
+
+
+]
