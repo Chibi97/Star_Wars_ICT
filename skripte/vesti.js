@@ -14,8 +14,8 @@ $(document).ready(function() {
 
 function newsTemplate(data) {
   return $("<div class='news-wrapper'>" +
-    "<img src='images/news/news1_1.jpg' />" +
-    "<h1 class='news-header'>5 THINGS WE LEARNED FROM “THE FORCE OF SOUND</h1>" +
+    "<img src='" + data.images[0].src + "' alt='" + data.images[0].alt + "' />" +
+    "<h1 class='news-header'>" + data.heading + "</h1>" +
       makeNewsContent(data) +
     "</div>");
 }

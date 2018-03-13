@@ -62,7 +62,7 @@
         <section class="col left">
           <article>
             <img src="images/news/news1-large.jpg" alt="news1 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
+            <h2><a href="news.php?vest_id=1">5 THINGS WE LEARNED FROM THE FORCE OF SOUND</a></h2>
             <p>
               ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution).
             </p>

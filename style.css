@@ -355,6 +355,11 @@ footer a {
   margin: 8em 0;
 }
 
+.news-parag strong {
+  display: block;
+  color: #FFD81F;
+}
+
 .news-parag {
   color: #fbfbfb;
   font-size: 2.5rem;
