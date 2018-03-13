@@ -337,3 +337,8 @@ footer a {
 .gallery img {
   margin: 2.5rem;
 }
+
+/* ---------- News ---------- */
+.news-wrapper {
+  max-width: 100rem;
+}
