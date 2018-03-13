@@ -316,3 +316,24 @@ footer a {
   margin: 3rem 0 auto;
   font-size: 1.3rem;
 }
+
+/* ---------- Gallery ---------- */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stars-extended {
+  min-height: 100vh !important;
+  height: auto !important;
+}
+
+.gallery a {
+  color: none;
+  outline: none;
+}
+
+.gallery img {
+  margin: 2.5rem;
+}
