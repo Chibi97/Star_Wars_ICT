@@ -314,3 +314,19 @@ footer a {
   margin:15rem;
   opacity:0.7;
 }
+
+/* ---------- Gallery ---------- */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery a {
+  color: none;
+  outline: none;
+}
+
+.gallery img {
+  margin: 2.5rem;
+}

@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Star Wars</title>
+    <title>Star Wars | Gallery</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TODO: jos meta tagova! -->
     <link rel="shortcut icon" href="images/dvfavicon.ico" >
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway|Dosis:700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="/vendor/lightbox/lightbox.min.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -40,53 +41,28 @@
         <button class="far fa-times-circle" id="x"></button>
       </nav>
       <section class="stars">
-        <div class="logo">
-          <img alt="logo" src="images/logo.png"/>
-          <h1>long time ago, in a galaxy far, far away...</h1>
+        <div class="gallery">
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 1">
+            <img src="/images/primer.jpg" />
+          </a>
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 2">
+            <img src="/images/primer.jpg" />
+          </a>
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 3">
+            <img src="/images/primer.jpg" />
+          </a>
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 4">
+            <img src="/images/primer.jpg" />
+          </a>
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 5">
+            <img src="/images/primer.jpg" />
+          </a>
+          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 6">
+            <img src="/images/primer.jpg" />
+          </a>
         </div>
       </section>
     </header>
-
-    <div class="wrapper">
-      <hr />
-      <section class="actors">
-        <h1 class="heading">Actors</h1>
-        <button class="fas fa-chevron-left prev"></button>
-
-        <button class="fas fa-chevron-right next"></button>
-      </section>
-
-      <hr />
-      <div class="news-wrapper">
-      <h1 class="heading">Latest news</h1>
-        <section class="col left">
-          <article>
-            <img src="images/news1-large.jpg" alt="news1 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-            <p>
-              ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution).
-            </p>
-          </article>
-        </section>
-
-        <section class="col right">
-          <article class="news">
-            <img src="images/news1.jpg" alt="news2 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
-
-          <article class="news">
-            <img src="images/news1.jpg" alt="news3 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
-
-          <article class="news">
-            <img src="images/news1.jpg" alt="news4 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
-        </section>
-      </div>
-    </div>
 
     <footer>
       <div class="wrapper">
@@ -102,8 +78,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/vendor/lightbox/lightbox.min.js"></script>
     <script src="skripte/sajt.js"></script>
-    <script src="skripte/actors.js"></script>
-
   </body>
 </html>
