@@ -322,6 +322,11 @@ footer a {
   flex-wrap: wrap;
 }
 
+.stars-extended {
+  min-height: 100vh !important;
+  height: auto !important;
+}
+
 .gallery a {
   color: none;
   outline: none;

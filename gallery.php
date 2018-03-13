@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/dvfavicon.ico" >
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway|Dosis:700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="/vendor/lightbox/lightbox.min.css" rel="stylesheet">
+    <link href="/dist/css/lightbox.min.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -40,7 +40,7 @@
         </ul>
         <button class="far fa-times-circle" id="x"></button>
       </nav>
-      <section class="stars">
+      <section class="stars stars-extended">
         <div class="gallery">
           <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 1">
             <img src="/images/primer.jpg" />
@@ -78,7 +78,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/vendor/lightbox/lightbox.min.js"></script>
+    <script src="/dist/js/lightbox.min.js"></script>
     <script src="skripte/sajt.js"></script>
   </body>
 </html>
