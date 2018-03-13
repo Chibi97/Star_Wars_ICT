@@ -57,7 +57,7 @@
       </section>
 
       <hr />
-      <div class="news-wrapper">
+      <div class="news-container">
       <h1 class="heading">Latest news</h1>
         <section class="col left">
           <article>

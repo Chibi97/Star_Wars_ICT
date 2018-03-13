@@ -37,7 +37,8 @@
     "image" : {
       "src" : "images/news/news5.jpg",
       "alt" : "Crystal Fox"
-    }
+    },
+    "desc": "Check out this easy star wars recipe based on the stunning creatures from star wars: the last jedi. Star Wars: The Last Jedi introduced the mineral planet of Crait where fans became acquainted with a new unique species known as vulptex, or the crystal fox. Join our little cooking class for more delicious information!"
   },
 
   {
@@ -46,6 +47,23 @@
       "src" : "images/news/news6.jpg",
       "alt" : "Paige Tico"
     }
+  },
+
+  {
+    "heading" : "IN THE LAST JEDI, REY’S JOURNEY IN THE MIRROR CAVE ECHOES A STAR WARS CYCLE",
+    "image" : {
+      "src" : "images/news/news7.jpg",
+      "alt" : "Rey's journey"
+    }
+  },
+
+  {
+    "heading" : "NEW SOLO: A STAR WARS STORY PHOTOS AND DETAILS REVEALED",
+    "image" : {
+      "src" : "images/news/news8.jpg",
+      "alt" : "Young Solo"
+    }
   }
+
 
 ]
