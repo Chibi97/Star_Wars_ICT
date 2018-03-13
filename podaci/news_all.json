@@ -20,10 +20,24 @@
     "heading" : "WHY THE LAST JEDI IS A POWERFUL FABLE ON THE IMPORTANCE OF TEACHING",
     "image" : {
       "src" : "images/news/news3.jpg",
-      "alt" : "Mark Walk of Fame",
+      "alt" : "Importance of teaching",
     }
   },
 
+  {
+    "heading" : "5 THINGS WE LEARNED FROM STAR WARS: THE LAST JEDI – THE VISUAL DICTIONARY",
+    "image" : {
+      "src" : "images/news/news4.jpg",
+      "alt" : "Visual dictionary",
+    }
+  },
 
+  {
+    "heading" : "THESE CRYSTAL FOX SCONES WILL SHOW YOU THE WAY TO DELICIOUSNESS",
+    "image" : {
+      "src" : "images/news/news5.jpg",
+      "alt" : "Crystal Fox",
+    }
+  }
 
 ]
