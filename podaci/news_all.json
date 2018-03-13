@@ -32,4 +32,12 @@
     }
   },
 
+  {
+    "heading" : "THESE CRYSTAL FOX SCONES WILL SHOW YOU THE WAY TO DELICIOUSNESS",
+    "image" : {
+      "src" : "images/news/news5.jpg",
+      "alt" : "Crystal Fox",
+    }
+  }
+
 ]
