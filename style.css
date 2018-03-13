@@ -341,4 +341,22 @@ footer a {
 /* ---------- News ---------- */
 .news-wrapper {
   max-width: 100rem;
+  background: #101010CC;
+  padding: 5em;
+  text-align: justify;
+}
+
+.news-header {
+  font-size: 4.5rem;
+  margin: .5em 0;
+}
+
+.news-wrapper img:not(:first-child) {
+  margin: 8em 0;
+}
+
+.news-parag {
+  color: #fbfbfb;
+  font-size: 2.5rem;
+  line-height: 1.5em;
 }

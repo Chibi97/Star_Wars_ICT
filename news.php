@@ -41,7 +41,7 @@
       </nav>
       <section class="stars stars-extended">
         <div class='news-wrapper'>
-
+          
         </div>
       </section>
     </header>
