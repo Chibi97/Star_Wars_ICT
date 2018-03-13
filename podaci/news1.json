@@ -3,22 +3,22 @@
     "heading" : "5 THINGS WE LEARNED FROM “THE FORCE OF SOUND",
     "images" : [
       {
-        "src" : "images/news/news.news1_1",
+        "src" : "images/news/news1_1.jpg",
         "alt" : "poe and bb-8"
       },
 
       {
-        "src" : "images/news/news.news1_2",
+        "src" : "images/news/news1_2.jpg",
         "alt" : "porgs"
       },
 
       {
-        "src" : "images/news/news.news1_3",
+        "src" : "images/news/news1_3.jpg",
         "alt" : "holdo"
       },
 
       {
-        "src" : "images/news/news.news1_4",
+        "src" : "images/news/news1_4.jpg",
         "alt" : "kylo ren"
       }
     ],
