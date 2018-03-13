@@ -3,7 +3,7 @@
     "name": "Harrison Ford",
     "role": "Han Solo",
     "image": {
-      "src": "images/harrison.jpg",
+      "src": "images/actors/harrison.jpg",
       "alt": "harrison"
     },
     "film" : 7
@@ -13,7 +13,7 @@
     "name": "Mark Hamill",
     "role": "Luke Skywalker",
     "image": {
-      "src": "images/mark.jpg",
+      "src": "images/actors/mark.jpg",
       "alt": "mark"
     },
     "film" : 8
@@ -23,7 +23,7 @@
     "name": "Carrie Fisher",
     "role": "Leia Organa",
     "image": {
-      "src": "images/carrie.jpg",
+      "src": "images/actors/carrie.jpg",
       "alt": "carrie"
     },
     "film" : 8
@@ -33,7 +33,7 @@
     "name": "Daisy Ridley",
     "role": "Ray",
     "image": {
-      "src": "images/daisy.jpg",
+      "src": "images/actors/daisy.jpg",
       "alt": "daisy"
     },
     "film" : 8
@@ -43,7 +43,7 @@
     "name": "Adam Driver",
     "role": "Kylo Ren",
     "image": {
-      "src": "images/adam.jpg",
+      "src": "images/actors/adam.jpg",
       "alt": "adam"
     },
     "film" : 8
@@ -53,7 +53,7 @@
     "name": "Anthony Daniels",
     "role": "C-3PO",
     "image": {
-      "src": "images/anthony.jpg",
+      "src": "images/actors/anthony.jpg",
       "alt": "anthony"
     },
     "film" : 8
@@ -63,7 +63,7 @@
     "name": "Frank Oz",
     "role": "Yoda",
     "image": {
-      "src": "images/frank.jpg",
+      "src": "images/actors/frank.jpg",
       "alt": "frank"
     },
     "film" : 8
@@ -73,7 +73,7 @@
     "name": "John Boyega",
     "role": "Finn",
     "image": {
-      "src": "images/john.jpg",
+      "src": "images/actors/john.jpg",
       "alt": "john"
     },
     "film" : 8
@@ -83,7 +83,7 @@
     "name": "Oscar Isaac",
     "role": "Poe Dameron",
     "image": {
-      "src": "images/oscar.jpg",
+      "src": "images/actors/oscar.jpg",
       "alt": "oscar"
     },
     "film" : 8
@@ -91,9 +91,9 @@
 
   {
     "name": "Andy Serkis",
-    "role": "Supreme Leader Snoke",
+    "role": "Snoke",
     "image": {
-      "src": "images/andy.jpg",
+      "src": "images/actors/andy.jpg",
       "alt": "andy"
     },
     "film" : 8
@@ -103,7 +103,7 @@
    "name": "Ewan McGregor",
    "role": "Obi-Wan Kenobi young",
    "image": {
-     "src": "images/ewan.jpg",
+     "src": "images/actors/ewan.jpg",
      "alt": "ewan"
    },
    "film" : 6
@@ -113,7 +113,7 @@
    "name": "Alec Guinness",
    "role": "Obi-Wan Kenobi",
    "image": {
-     "src": "images/alec.jpg",
+     "src": "images/actors/alec.jpg",
      "alt": "alec"
    },
    "film" : 3
@@ -121,9 +121,9 @@
 
   {
    "name": "Natalie Portman",
-   "role": "Padmé (Queen Amidala)",
+   "role": "Padmé",
    "image": {
-     "src": "images/natalie.jpg",
+     "src": "images/actors/natalie.jpg",
      "alt": "natalie"
    },
    "film" : 6
@@ -133,7 +133,7 @@
    "name": "Liam Neeson",
    "role": "Qui-Gon Jinn",
    "image": {
-     "src": "images/liam.jpg",
+     "src": "images/actors/liam.jpg",
      "alt": "liam"
    },
    "film" : 4
@@ -143,7 +143,7 @@
    "name": "Ian McDiarmid",
    "role": "Senator Palpatine",
    "image": {
-     "src": "images/ian.jpg",
+     "src": "images/actors/ian.jpg",
      "alt": "ian"
    },
    "film" : 6
@@ -153,7 +153,7 @@
    "name": "Ahmed Best",
    "role": "Jar Jar Binks",
    "image": {
-     "src": "images/ahmed.jpg",
+     "src": "images/actors/ahmed.jpg",
      "alt": "ahmed"
    },
    "film" : 4
@@ -163,7 +163,7 @@
    "name": "Kenny Baker",
    "role": "R2-D2",
    "image": {
-     "src": "images/kenny.jpg",
+     "src": "images/actors/kenny.jpg",
      "alt": "kenny"
    },
    "film" : 3
@@ -173,7 +173,7 @@
   "name": "David Prowse",
   "role": "Darth Vader",
   "image": {
-    "src": "images/david.jpg",
+    "src": "images/actors/david.jpg",
     "alt": "david"
   },
   "film" : 3
@@ -183,7 +183,7 @@
   "name": "Peter Mayhew",
   "role": "Chewbacca",
   "image": {
-    "src": "images/peter.jpg",
+    "src": "images/actors/peter.jpg",
     "alt": "peter"
   },
   "film" : 7
@@ -193,7 +193,7 @@
   "name": "Christofer Lee",
   "role": "Count Dooku",
   "image": {
-    "src": "images/christofer.jpg",
+    "src": "images/actors/christofer.jpg",
     "alt": "christofer"
   },
   "film" : 6
@@ -203,7 +203,7 @@
   "name": "Samuel L. Jackson",
   "role": "Mace Windu",
   "image": {
-    "src": "images/samuel.jpg",
+    "src": "images/actors/samuel.jpg",
     "alt": "samuel"
   },
   "film" : 6
@@ -211,9 +211,9 @@
 
  {
   "name": "Peter Cushing",
-  "role": "Grand Moff Tarkin",
+  "role": "Tarkin",
   "image": {
-    "src": "images/peter_cush.jpg",
+    "src": "images/actors/peter_cush.jpg",
     "alt": "peter cushing"
   },
   "film" : 1
@@ -223,7 +223,7 @@
   "name": "Billy Dee Williams",
   "role": "Lando Calrissian",
   "image": {
-    "src": "images/billy.jpg",
+    "src": "images/actors/billy.jpg",
     "alt": "billy"
   },
   "film" : 3
@@ -233,7 +233,7 @@
   "name": "Jeremy Bulloch",
   "role": "Boba Fett",
   "image": {
-    "src": "images/jeremy.jpg",
+    "src": "images/actors/jeremy.jpg",
     "alt": "jeremy"
   },
   "film" : 6
@@ -243,7 +243,7 @@
   "name": "Hayden Christensen",
   "role": "Anakin Skywalker",
   "image": {
-    "src": "images/hayden.jpg",
+    "src": "images/actors/hayden.jpg",
     "alt": "hayden"
   },
   "film" : 6
@@ -253,7 +253,7 @@
    "name": "Temuera Morrison",
    "role": "Jango Fett",
    "image": {
-     "src": "images/temuera.jpg",
+     "src": "images/actors/temuera.jpg",
      "alt": "temuera"
    },
    "film" : 6
