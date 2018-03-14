@@ -28,7 +28,7 @@
             <a href="#">Author</a>
           </li>
           <li>
-            <a href="#">Documentation</a>
+            <a href="/starwars.pdf">Documentation</a>
           </li>
           <li>
             <button class="log-reg">sign in / up</button>

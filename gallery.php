@@ -32,7 +32,7 @@
             <a href="#">Author</a>
           </li>
           <li>
-            <a href="#">Documentation</a>
+            <a href="/starwars.pdf">Documentation</a>
           </li>
           <li>
             <button class="log-reg">sign in / up</button>
@@ -91,7 +91,7 @@
           <input type="text" placeholder="Email" />
           <label>Password</label>
           <input type="password" placeholder="Password" />
-          <button type="submit">Sign in</button>
+          <button class="submit">Sign in</button>
         </form>
       </div>
       <div class="modal-col">
@@ -103,7 +103,7 @@
           <input type="password" placeholder="Password" />
           <label>Password Confirmation</label>
           <input type="password" placeholder="Password" />
-          <button type="submit">Sign up</button>
+          <button class="submit">Sign up</button>
         </form>
       </div>
     </div>

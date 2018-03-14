@@ -30,7 +30,7 @@
             <a href="#">Author</a>
           </li>
           <li>
-            <a href="#">Documentation</a>
+            <a href="/starwars.pdf">Documentation</a>
           </li>
           <li>
             <button class="log-reg">sign in / up</button>
@@ -92,23 +92,32 @@
         <h1>sign in</h1>
         <form>
           <label>Email</label>
-          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Email" class="email" />
+          <span class="error email-err"></span>
           <label>Password</label>
           <input type="password" placeholder="Password" />
-          <button type="submit">Sign in</button>
+          <span class="error"></span>
+          <button class="submitSI">Sign in</button>
         </form>
       </div>
       <div class="modal-col">
         <h1>sign up</h1>
         <form>
           <label>Email</label>
-          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Email" class="email"/>
+          <span class="error"></span>
           <label>Password</label>
           <input type="password" placeholder="Password" />
+          <span class="error"></span>
           <label>Password Confirmation</label>
           <input type="password" placeholder="Password" />
-          <button type="submit">Sign up</button>
+          <span class="error"></span>
+          <button class="submitSU">Sign up</button>
         </form>
+
+        <div id="validacija">
+
+        </div>
       </div>
     </div>
 
