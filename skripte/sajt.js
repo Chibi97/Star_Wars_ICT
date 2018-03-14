@@ -95,8 +95,7 @@ function validation() {
     password.style.border ="1px solid  #ffd81f";
     spanPass.innerHTML = "";
   }
-  console.log(ok);
-  //document.querySelector("#validacija").innerHTML = ok;
+  goodJob(ok);
 }
 
 function validationSU() {
@@ -129,16 +128,34 @@ function validationSU() {
   }
 
   var password = document.querySelector(".passwordSU");
-  var regPass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+  var regPass  = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
   var spanPass = document.querySelector(".passwordSU-err");
   if(!regPass.test(password.value)) {
     password.style.border = "2px solid #ffd81f";
     spanPass.innerHTML = "In order to grasp the force, your password should contain at least one digit, at least one uppecase char, lowercase char and it should be at least 8 chars long.";
   } else {
-    ok.push("Password: " + password.value);
     password.style.border ="1px solid  #ffd81f";
     spanPass.innerHTML = "";
   }
 
-  console.log(ok);
+  var confirm  = document.querySelector(".confirm");
+  var spanConf = document.querySelector(".confirm-err");
+  if(password.value == confirm.value && password.value.length!==0) {
+    confirm.style.border ="1px solid  #ffd81f";
+    spanConf.innerHTML = "";
+    ok.push("Password: " + password.value);
+  } else {
+    confirm.style.border = "2px solid #ffd81f";
+    spanConf.innerHTML = "Phew! A good jedi must be patient! Your passwords are not matching.";
+  }
+  goodJob(ok);
+}
+
+function goodJob(correct) {
+  var template = '';
+  correct.forEach(function(input) {
+    template += '<p class="input">' + input + '</p><br/>'
+  });
+  console.log(template);
+  document.querySelector("#validacija").innerHTML = template;
 }

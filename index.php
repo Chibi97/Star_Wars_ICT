@@ -99,6 +99,9 @@
           <span class="error password-err"></span>
           <button class="submitSI">Sign in</button>
         </form>
+        <div id="validacija">
+
+        </div>
       </div>
       <div class="modal-col">
         <h1>sign up</h1>
@@ -113,14 +116,10 @@
           <input type="password" placeholder="Password" class="passwordSU"/>
           <span class="error passwordSU-err"></span>
           <label>Password Confirmation</label>
-          <input type="password" placeholder="Password" />
-          <span class="error"></span>
+          <input type="password" placeholder="Password" class="confirm" />
+          <span class="error confirm-err"></span>
           <button class="submitSU">Sign up</button>
         </form>
-
-        <div id="validacija">
-
-        </div>
       </div>
     </div>
 

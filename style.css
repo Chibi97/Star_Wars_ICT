@@ -464,6 +464,11 @@ footer a {
   top:10px;
 }
 
-.error {
+.login-modal span, .input {
   font-size: 1.35rem;
+}
+
+#validacija {
+  background:white;
+
 }
