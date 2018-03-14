@@ -27,7 +27,7 @@
           </li>
 
           <li>
-            <a href="#">Author</a>
+            <a href="/author.php">Author</a>
           </li>
           <li>
             <a href="/starwars.pdf">Documentation</a>

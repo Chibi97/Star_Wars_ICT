@@ -29,7 +29,7 @@
           </li>
 
           <li>
-            <a href="#">Author</a>
+            <a href="/author.php">Author</a>
           </li>
           <li>
             <a href="/starwars.pdf">Documentation</a>
@@ -118,7 +118,7 @@
         </form>
       </div>
     </div>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/dist/js/lightbox.min.js"></script>
     <script src="skripte/sajt.js"></script>
