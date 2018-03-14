@@ -19,13 +19,10 @@
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Movies</a>
-          </li>
-          <li>
             <a href="/gallery.php">Gallery</a>
           </li>
           <li>
-            <a href="/news.php">News</a>
+            <a href="/news.php">Current news</a>
           </li>
           <li>
             <a href="#">Author</a>
