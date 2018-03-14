@@ -47,13 +47,13 @@ $(document).ready(function() {
 });
 
 function slowWrite(element, time) {
-  console.log("go");
   var text = element.text();
   element.text("");
   slowWriteRecurse(text, time, 0, element);
 }
 
 function slowWriteRecurse(text, time, curr, elem) {
+  if(curr > text.length) return;
   var last = elem.text();
   elem.text(last + text.charAt(curr));
   setTimeout(function() {
