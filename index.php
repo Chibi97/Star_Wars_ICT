@@ -85,11 +85,11 @@
     </div>
     </footer>
 
-    <!-- Modal login -->
-    <!--
+
     <div class='login-modal'>
+      <span id="close">&times;</span>
       <div class='modal-col'>
-        <h1>Sign In</h1>
+        <h1>sign in</h1>
         <form>
           <label>Email</label>
           <input type="text" placeholder="Email" />
@@ -99,7 +99,7 @@
         </form>
       </div>
       <div class="modal-col">
-        <h1>Sign up</h1>
+        <h1>sign up</h1>
         <form>
           <label>Email</label>
           <input type="text" placeholder="Email" />
@@ -111,7 +111,7 @@
         </form>
       </div>
     </div>
-  -->
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="skripte/sajt.js"></script>

@@ -406,18 +406,20 @@ footer a {
   margin:2em 20em;
   font-weight:700;
   cursor:pointer;
+}
 
-/* modal */
+/* ------------- MODAL -------------- */
 .login-modal {
   position: fixed;
   display: flex;
   width: 80rem;
   height: 40rem;
-  background: gray;
+  background: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 3em 1.2em;
+  z-index:1000;
 }
 
 .login-modal h1 {
@@ -438,9 +440,13 @@ footer a {
 
 .modal-col button {
   display: block;
-  width: 50%;
+  width: 30%;
   min-width: 10rem;
   margin: 2rem auto;
+  border:none;
+  background:#FFD81F;
+  padding:1em;
+  font-weight: 700;
 }
 
 .login-modal input {
@@ -448,4 +454,12 @@ footer a {
   width: 100%;
   padding: .5em;
   border: 1px solid #FFD81F;
+}
+
+#close {
+  font-size:4rem;
+  cursor:pointer;
+  position:absolute;
+  right:38px;
+  top:10px;
 }

@@ -31,11 +31,30 @@ $(document).ready(function() {
     glMeni.animate({
       right:"-28rem"
     }, aniSpeed);
-  })
+  });
+
+  modal();
 });
 
 function createFromTemplate() {
   var temp = '<button class="fas fa-chevron-circle-up" id="strelica"></buttons>';
   var element = $(temp);
   $("body").append(element);
+}
+
+function modal() {
+  var modal = $(".login-modal");
+  modal.hide();
+  $(".log-reg").click(function() {
+    modal.fadeIn(1000);
+  });
+
+  /*$("body, html").click(function(e) {
+    if (e.target == modal) {
+        modal.hide();
+    }
+  });*/
+  $("#close").click(function() {
+    modal.fadeOut(1000);
+  });
 }
