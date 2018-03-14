@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var active = getParameterByName("vest_id") || 1;
+  var maxVesti = 12;
 
   $.ajax({
     type: 'get',
@@ -7,6 +8,17 @@ $(document).ready(function() {
     success: function(data) {
       var elem = newsTemplate(data);
       $(".news-wrapper").html(elem);
+      var nextLink = $(`<a class='vest-link' href='/news.php?vest_id=${Number(active)+1}'>Next</a>`);
+      var prevLink = $(`<a class='vest-link' href='/news.php?vest_id=${Number(active)-1}'>Previous</a>`);
+      if(active > 1) {
+        $(".news-wrapper").last().append(prevLink);
+      }
+      for(var i=1; i <= 12; i++) {
+        $(".news-wrapper").last().append($(`<a class='vest-link' href='/news.php?vest_id=${i}'>${i}</a>`));
+      }
+      if(active < 12) {
+        $(".news-wrapper").last().append(nextLink);
+      }
     }
   })
 });

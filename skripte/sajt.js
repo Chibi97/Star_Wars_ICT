@@ -4,6 +4,8 @@ $(document).ready(function() {
   var glMeni = $(".gl-meni");
   var aniSpeed = 500;
   createFromTemplate();
+  slowWrite($("#slow-text"), 200);
+  slowWrite($("#about h1"), 200);
 
   $("#strelica").click(function() {
     $("html").animate({scrollTop: 0}, 200);
@@ -44,6 +46,21 @@ $(document).ready(function() {
     validationSU();
   });
 });
+
+function slowWrite(element, time) {
+  var text = element.text();
+  element.text("");
+  slowWriteRecurse(text, time, 0, element);
+}
+
+function slowWriteRecurse(text, time, curr, elem) {
+  if(curr > text.length) return;
+  var last = elem.text();
+  elem.text(last + text.charAt(curr));
+  setTimeout(function() {
+    slowWriteRecurse(text, time, curr+1, elem);
+  }, time);
+}
 
 function createFromTemplate() {
   var temp = '<button class="fas fa-chevron-circle-up" id="strelica"></buttons>';
