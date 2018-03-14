@@ -41,7 +41,7 @@
       <section class="stars">
         <div class="logo">
           <img alt="logo" src="images/logo.png"/>
-          <h1>long time ago, in a galaxy far, far away...</h1>
+          <h1 id="slow-text">long time ago, in a galaxy far, far away...</h1>
         </div>
       </section>
     </header>
