@@ -49,12 +49,13 @@ function modal() {
     modal.fadeIn(1000);
   });
 
-  /*$("body, html").click(function(e) {
-    if (e.target == modal) {
-        modal.hide();
-    }
-  });*/
   $("#close").click(function() {
     modal.fadeOut(1000);
   });
+
+  $(document).click(function(e) {
+    if(!$(e.target).closest(".login-modal,.log-reg").length) {
+   $("body").find(".login-modal").fadeOut(1000);
+ }
+  })
 }
