@@ -88,26 +88,37 @@
         <h1>sign in</h1>
         <form>
           <label>Email</label>
-          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Email" class="email" />
+          <span class="error email-err"></span>
           <label>Password</label>
-          <input type="password" placeholder="Password" />
-          <button class="submit">Sign in</button>
+          <input type="password" placeholder="Password" class="password" />
+          <span class="error password-err"></span>
+          <button class="submitSI">Sign in</button>
         </form>
+        <div id="validacija">
+
+        </div>
       </div>
       <div class="modal-col">
         <h1>sign up</h1>
         <form>
-          <label>Email</label>
-          <input type="text" placeholder="Email" />
+          <label>Name and lastname</label>
+          <input type="text" placeholder="Name and last name" class="fnln"/>
+          <span class="error fnln-err"></span>
+          <label>Student ID</label>
+          <input type="text" placeholder="Index/Year" class="index"/>
+          <span class="error index-err"></span>
           <label>Password</label>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" class="passwordSU"/>
+          <span class="error passwordSU-err"></span>
           <label>Password Confirmation</label>
-          <input type="password" placeholder="Password" />
-          <button class="submit">Sign up</button>
+          <input type="password" placeholder="Password" class="confirm" />
+          <span class="error confirm-err"></span>
+          <button class="submitSU">Sign up</button>
         </form>
       </div>
     </div>
-
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/dist/js/lightbox.min.js"></script>
     <script src="skripte/sajt.js"></script>
