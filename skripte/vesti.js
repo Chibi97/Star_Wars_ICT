@@ -1,11 +1,10 @@
 $(document).ready(function() {
-  var active = getParameterByName("news_id") || 1;
+  var active = getParameterByName("vest_id") || 1;
 
   $.ajax({
     type: 'get',
     url: '/podaci/news' + active + '.json',
     success: function(data) {
-      console.log(data);
       var elem = newsTemplate(data);
       $(".news-wrapper").html(elem);
     }
