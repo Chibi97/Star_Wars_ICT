@@ -43,6 +43,7 @@ $(document).ready(function() {
     e.preventDefault();
     validationSU();
   });
+  
 });
 
 function createFromTemplate() {
