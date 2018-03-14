@@ -476,6 +476,11 @@ footer a {
   font-size: 1.35rem;
 }
 
+.vest-link {
+  font-size: 2.5rem;
+  margin: .2em;
+}
+
 /* ------------------ AUTHOR -----------------*/
 .about-me {
   font-size:1.7rem;
