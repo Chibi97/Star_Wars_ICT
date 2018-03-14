@@ -5,6 +5,7 @@ $(document).ready(function() {
   var aniSpeed = 500;
   createFromTemplate();
   slowWrite($("#slow-text"), 200);
+  slowWrite($("#about h1"), 200);
 
   $("#strelica").click(function() {
     $("html").animate({scrollTop: 0}, 200);
