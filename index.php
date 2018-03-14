@@ -58,33 +58,13 @@
 
       <hr />
       <div class="news-container">
-      <h1 class="heading">Latest news</h1>
-        <section class="col left">
-          <article>
-            <img src="images/news/news1-large.jpg" alt="news1 img"/>
-            <h2><a href="news.php?vest_id=1">5 THINGS WE LEARNED FROM THE FORCE OF SOUND</a></h2>
-            <p>
-              ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution).
-            </p>
-          </article>
-        </section>
+        <h1 class="heading">Latest news</h1>
+          <section class="col left">
 
-        <section class="col right">
-          <article class="news">
-            <img src="images/news/news1.jpg" alt="news2 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
+          </section>
+          <section class="col right">
 
-          <article class="news">
-            <img src="images/news/news1.jpg" alt="news3 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
-
-          <article class="news">
-            <img src="images/news/news1.jpg" alt="news4 img"/>
-            <h2>5 THINGS WE LEARNED FROM THE FORCE OF SOUND</h2>
-          </article>
-        </section>
+          </section>
       </div>
     </div>
 
@@ -106,9 +86,37 @@
     </div>
     </footer>
 
+    <!-- Modal login -->
+    <!--
+    <div class='login-modal'>
+      <div class='modal-col'>
+        <h1>Sign In</h1>
+        <form>
+          <label>Email</label>
+          <input type="text" placeholder="Email" />
+          <label>Password</label>
+          <input type="password" placeholder="Password" />
+          <button type="submit">Sign in</button>
+        </form>
+      </div>
+      <div class="modal-col">
+        <h1>Sign up</h1>
+        <form>
+          <label>Email</label>
+          <input type="text" placeholder="Email" />
+          <label>Password</label>
+          <input type="password" placeholder="Password" />
+          <label>Password Confirmation</label>
+          <input type="password" placeholder="Password" />
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+    </div>
+  -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="skripte/sajt.js"></script>
     <script src="skripte/actors.js"></script>
-
+    <script src="skripte/lista.js"></script>
   </body>
 </html>
