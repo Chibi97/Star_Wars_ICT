@@ -86,6 +86,34 @@
     </div>
     </footer>
 
+    <!-- Modal login -->
+    <!--
+    <div class='login-modal'>
+      <div class='modal-col'>
+        <h1>Sign In</h1>
+        <form>
+          <label>Email</label>
+          <input type="text" placeholder="Email" />
+          <label>Password</label>
+          <input type="password" placeholder="Password" />
+          <button type="submit">Sign in</button>
+        </form>
+      </div>
+      <div class="modal-col">
+        <h1>Sign up</h1>
+        <form>
+          <label>Email</label>
+          <input type="text" placeholder="Email" />
+          <label>Password</label>
+          <input type="password" placeholder="Password" />
+          <label>Password Confirmation</label>
+          <input type="password" placeholder="Password" />
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+    </div>
+  -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="skripte/sajt.js"></script>
     <script src="skripte/actors.js"></script>
