@@ -40,8 +40,8 @@
         <button class="far fa-times-circle" id="x"></button>
       </nav>
       <section class="stars stars-extended">
-        <div class='news-wrapper'>
-          
+        <div class="news-wrapper">
+
         </div>
       </section>
     </header>

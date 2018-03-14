@@ -4,6 +4,11 @@
   "date" : "8.3.2018.",
   "images" : [
     {
+      "src" : "images/news/news2.jpg",
+      "alt" : "mark hamill sitting"
+    },
+
+    {
       "src" : "images/news/news2_1.jpg",
       "alt" : "mark hamill"
     },

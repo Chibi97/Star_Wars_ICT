@@ -1,7 +1,12 @@
 {
-  "heading" : "5 THINGS WE LEARNED FROM “THE FORCE OF SOUND",
+  "heading" : "5 THINGS WE LEARNED FROM THE FORCE OF SOUND",
   "date" : "7.1.2018.",
   "images" : [
+    {
+      "src" : "images/news/news1.jpg",
+      "alt" : "ray"
+    },
+
     {
       "src" : "images/news/news1_1.jpg",
       "alt" : "poe and bb-8"
