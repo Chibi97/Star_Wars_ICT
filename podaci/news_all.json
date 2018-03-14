@@ -96,7 +96,7 @@
     "id" : 11,
     "heading" : "10 HIGHLIGHTS FROM STAR WARS: ICONS OF THE GALAXY",
     "image" : {
-      "src" : "images/news/news11.jpg",
+      "src" : "images/news/news11_s.jpg",
       "alt" : "Icon of the Galaxy"
     }
   },
@@ -105,7 +105,7 @@
     "id" : 12,
     "heading" : "5 HIGHLIGHTS FROM THE SOLO: A STAR WARS STORY TEASER TRAILER",
     "image" : {
-      "src" : "images/news/news12.jpg",
+      "src" : "images/news/news12_s.jpg",
       "alt" : "Highlights from the Solo"
     }
   }
