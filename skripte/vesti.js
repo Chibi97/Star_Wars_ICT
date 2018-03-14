@@ -22,16 +22,33 @@ function newsTemplate(data) {
 
 function makeNewsContent(data) {
   var html = "";
-  var imageIndex = 1;
   var pIndex = 0;
-  data.content.forEach(function(paragraph, index) {
-    if((index+1)%2==0 && imageIndex < data.images.length) {
-      var img = data.images[imageIndex];
-      html += "<img src='" + img.src + "' alt='" + img.alt +"' />";
-      imageIndex++;
+
+  var slike  = data.images.slice(1, data.images.length);
+  var pasusi = data.content;
+  var br = 0;
+
+  while(slike.length > 0 && pasusi.length > 0) {
+    if(br%2==0) {
+      var nextPasus = pasusi.shift(1);
+      html += "<p class='news-parag'>" + nextPasus + "</p>";
+    } else {
+      var nextImage = slike.shift(1);
+      html += "<img src='" + nextImage.src + "' alt='" + nextImage.alt + "' />";
     }
-    html += "<p class='news-parag'>" + paragraph + "</p>";
-  });
+    br++;
+  }
+
+  while(slike.length > 0) {
+    var nextImage = slike.shift(1);
+    html += "<img src='" + nextImage.src + "' alt='" + nextImage.alt + "' />";
+  }
+
+  while(pasusi.length > 0) {
+    var nextPasus = pasusi.shift(1);
+    html += "<p class='news-parag'>" + nextPasus + "</p>";
+  }
+
   return html;
 }
 
