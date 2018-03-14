@@ -3,6 +3,11 @@
   "date" : "30.1.2018.",
   "images" : [
     {
+      "src" : "images/news/news11.jpg",
+      "alt" : "leia"
+    },
+    
+    {
       "src" : "images/news/news11_1.jpg",
       "alt" : "leia and stormtroopers"
     },

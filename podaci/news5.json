@@ -3,6 +3,11 @@
     "date" : "10.2.2018.",
   "images" : [
     {
+      "src" : "images/news/news5.jpg",
+      "alt" : "ray"
+    },
+
+    {
       "src" : "images/news/news5_1.jpg",
       "alt" : "yoda"
     },
@@ -14,11 +19,6 @@
 
     {
       "src" : "images/news/news5_3.jpg",
-      "alt" : "ray"
-    },
-
-    {
-      "src" : "images/news/news5_4.jpg",
       "alt" : "ray and luke"
     }
   ],

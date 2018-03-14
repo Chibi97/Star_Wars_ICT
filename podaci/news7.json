@@ -3,6 +3,11 @@
   "date" : "13.3.2018.",
   "images" : [
     {
+      "src" : "images/news/news7.jpg",
+      "alt" : "trio"
+    },
+
+    {
       "src" : "images/news/news7_1.jpg",
       "alt" : "ray"
     },

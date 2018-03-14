@@ -3,27 +3,27 @@
   "date" : "8.2.2018.",
   "images" : [
     {
-      "src" : "images/news/news8_1.jpg",
+      "src" : "images/news/news8.jpg",
       "alt" : "footage"
     },
 
     {
-      "src" : "images/news/news8_2.jpg",
+      "src" : "images/news/news8_1.jpg",
       "alt" : " lando"
     },
 
     {
-      "src" : "images/news/news8_3.jpg",
+      "src" : "images/news/news8_2.jpg",
       "alt" : "mysterious guys"
     },
 
     {
-      "src" : "images/news/news8_4.jpg",
+      "src" : "images/news/news8_3.jpg",
       "alt" : "solo flirting"
     },
 
     {
-      "src" : "images/news/news8_5.jpg",
+      "src" : "images/news/news8_4.jpg",
       "alt" : "in a spaceshuttle"
     }
   ],

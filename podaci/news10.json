@@ -3,6 +3,11 @@
   "date" : "21.2.2018.",
   "images" : [
     {
+      "src" : "images/news/news10.jpg",
+      "alt" : "last jedi"
+    },
+
+    {
       "src" : "images/news/news10_1.jpg",
       "alt" : "last jedi - jason fry"
     },

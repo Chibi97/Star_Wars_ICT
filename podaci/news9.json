@@ -3,37 +3,37 @@
   "date" : "26.1.2018.",
   "images" : [
     {
-      "src" : "images/news/news9_1.jpg",
+      "src" : "images/news/news9.jpg",
       "alt" : "kylo 1"
     },
 
     {
-      "src" : "images/news/news9_2.jpg",
+      "src" : "images/news/news9_1.jpg",
       "alt" : "kylo 2"
     },
 
     {
-      "src" : "images/news/news9_3.jpg",
+      "src" : "images/news/news9_2.jpg",
       "alt" : "kylo 3"
     },
 
     {
-      "src" : "images/news/news9_4.jpg",
+      "src" : "images/news/news9_3.jpg",
       "alt" : "kylo 4"
     },
 
     {
-      "src" : "images/news/news9_5.jpg",
+      "src" : "images/news/news9_4.jpg",
       "alt" : "kylo 5"
     },
 
     {
-      "src" : "images/news/news9_6.jpg",
+      "src" : "images/news/news9_5.jpg",
       "alt" : "kylo 6"
     },
 
     {
-      "src" : "images/news/news9_7.jpg",
+      "src" : "images/news/news9_6.jpg",
       "alt" : "kylo 7"
     }
   ],
