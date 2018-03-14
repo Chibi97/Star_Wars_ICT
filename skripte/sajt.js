@@ -41,7 +41,7 @@ $(document).ready(function() {
 
   $(".submitSU").click(function(e) {
     e.preventDefault();
-    validation();
+    validationSU();
   });
 });
 
@@ -55,11 +55,11 @@ function modal() {
   var modal = $(".login-modal");
   modal.hide();
   $(".log-reg").click(function() {
-    modal.fadeIn(1000);
+    modal.fadeIn(500);
   });
 
   $("#close").click(function() {
-    modal.fadeOut(1000);
+    modal.fadeOut(500);
   });
 
   $(document).click(function(e) {
@@ -70,20 +70,75 @@ function modal() {
 }
 
 function validation() {
-  var greske = [];
   var ok     = [];
   var email    = document.querySelector(".email");
   console.log(email.value);
   var regEmail = /^[a-z]+(\.[a-z]+)+(\.[1-9][0-9]{0,3}\.(0[0-9]|1[0-7]))?\@ict\.edu\.rs$/;
   var spanEmail = document.querySelector(".email-err");
-  if(!regEmail.test(email) == email.value) {
-    greske.push("Dozvoljeni su samo domeni ICT-a.");
+  if(!regEmail.test(email.value)) {
     email.style.border = "2px solid #ffd81f";
-    spanEmail.innerHTML = "Dozvoljeni su samo mailovi ICT-domena, formata ime.prezime.34.16@ict.edu.rs";
+    spanEmail.innerHTML = "You've made a mistake young padawan! Btw, only iCT students/professors allowed in!";
   } else {
     ok.push("Email: " + email.value);
-    email.style.border = "none";
+    email.style.border ="1px solid #FFD81F";
+    spanEmail.innerHTML = "";
   }
 
+  var password = document.querySelector(".password");
+  var regPass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+  var spanPass = document.querySelector(".password-err");
+  if(!regPass.test(password.value)) {
+    password.style.border = "2px solid #ffd81f";
+    spanPass.innerHTML = "In order to grasp the force, your password should contain at least one digit, at least one uppecase char, lowercase char and it should be at least 8 chars long.";
+  } else {
+    ok.push("Password: " + password.value);
+    password.style.border ="1px solid  #ffd81f";
+    spanPass.innerHTML = "";
+  }
+  console.log(ok);
+  //document.querySelector("#validacija").innerHTML = ok;
+}
 
+function validationSU() {
+  var ok = [];
+  var nameLastname = document.querySelector(".fnln");
+  var spanFNLN = document.querySelector(".fnln-err");
+  var regNameLastname =/^[A-Z][a-z]{2,15}(\s[A-Z][a-z]{2,15})+$/;
+  if(!regNameLastname.test(nameLastname.value)) {
+    nameLastname.style.border = "2px solid #ffd81f";
+    spanFNLN.innerHTML = "The force is not strong in this one! Please, write grammatically correct!";
+  } else {
+    ok.push("Name and last name: " + nameLastname.value);
+    nameLastname.style.border ="1px solid #FFD81F";
+    spanFNLN.innerHTML = "";
+  }
+
+  var index = document.querySelector(".index");
+  var spanIndex = document.querySelector(".index-err");
+  var regIndex = /^[1-9][0-9]{0,3}\/(0[0-9]|1[0-7])$/;
+  var condition = index.value.split("/");
+  console.log(condition);
+  console.log(Number(condition[0]));
+  if(!regIndex.test(index.value) || Number(condition[0]) >= 2000) {
+    index.style.border = "2px solid #ffd81f";
+    spanIndex.innerHTML = "The format is n(nnn)/yy. Only numbers and slash allowed.";
+  } else {
+    ok.push("Student ID: " + index.value);
+    index.style.border ="1px solid #FFD81F";
+    spanIndex.innerHTML = "";
+  }
+
+  var password = document.querySelector(".passwordSU");
+  var regPass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+  var spanPass = document.querySelector(".passwordSU-err");
+  if(!regPass.test(password.value)) {
+    password.style.border = "2px solid #ffd81f";
+    spanPass.innerHTML = "In order to grasp the force, your password should contain at least one digit, at least one uppecase char, lowercase char and it should be at least 8 chars long.";
+  } else {
+    ok.push("Password: " + password.value);
+    password.style.border ="1px solid  #ffd81f";
+    spanPass.innerHTML = "";
+  }
+
+  console.log(ok);
 }

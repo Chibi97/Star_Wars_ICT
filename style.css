@@ -413,7 +413,7 @@ footer a {
   position: fixed;
   display: flex;
   width: 80rem;
-  height: 40rem;
+  min-height: 40rem;
   background:#0e0d10;
   top: 50%;
   left: 50%;
@@ -462,4 +462,8 @@ footer a {
   position:absolute;
   right:38px;
   top:10px;
+}
+
+.error {
+  font-size: 1.35rem;
 }
