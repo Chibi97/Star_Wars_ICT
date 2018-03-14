@@ -3,7 +3,7 @@
     "id" : 1,
     "heading" : "5 THINGS WE LEARNED FROM THE FORCE OF SOUND",
     "image" : {
-      "src" : "images/news/news1.jpg",
+      "src" : "images/news/news1_large.jpg",
       "alt" : "Force of sound"
     },
     "desc" : "ABC News Features recently pulled back the curtain on the dedicated team at Skywalker Sound for an in-depth look at the subtle nuances and surprisingly normal tools that blend together to enrich the Star Wars galaxy (There are spoilers ahead in both the video and our breakdown, so proceed with caution)."
@@ -13,7 +13,7 @@
     "id" : 2,
     "heading" : "MARK HAMILL HONORED WITH STAR ON HOLLYWOOD WALK OF FAME",
     "image" : {
-      "src" : "images/news/news2.jpg",
+      "src" : "images/news/news2_s.jpg",
       "alt" : "Mark Walk of Fame"
     }
   },
@@ -22,7 +22,7 @@
     "id" : 3,
     "heading" : "THESE CRYSTAL FOX SCONES WILL SHOW YOU THE WAY TO DELICIOUSNESS",
     "image" : {
-      "src" : "images/news/news5.jpg",
+      "src" : "images/news/news3_s.jpg",
       "alt" : "Crystal Fox"
     }
   },
@@ -31,7 +31,7 @@
     "id" : 4,
     "heading" : "5 THINGS WE LEARNED FROM STAR WARS: THE LAST JEDI – THE VISUAL DICTIONARY",
     "image" : {
-      "src" : "images/news/news4.jpg",
+      "src" : "images/news/news4_s.jpg",
       "alt" : "Visual dictionary"
     }
   },
@@ -40,7 +40,7 @@
     "id" : 5,
     "heading" : "WHY THE LAST JEDI IS A POWERFUL FABLE ON THE IMPORTANCE OF TEACHING",
     "image" : {
-      "src" : "images/news/news3.jpg",
+      "src" : "images/news/news5_large.jpg",
       "alt" : "Importance of teaching"
     },
     "desc" : "In the latest film in the saga, both masters and apprentices learn lessons. Teaching and learning is among the most prevalent motifs in Star Wars, particularly in Star Wars: The Last Jedi. The mentor figure instructs the willing student in the ways of the Force..."
@@ -50,7 +50,7 @@
     "id" : 6,
     "heading" : "5 WAYS BOMBER COMMAND CONNECTS TO THE LARGER STAR WARS UNIVERSE",
     "image" : {
-      "src" : "images/news/news6.jpg",
+      "src" : "images/news/news6_s.jpg",
       "alt" : "Paige Tico"
     }
   },
@@ -59,7 +59,7 @@
     "id" : 7,
     "heading" : "IN THE LAST JEDI, REY’S JOURNEY IN THE MIRROR CAVE ECHOES A STAR WARS CYCLE",
     "image" : {
-      "src" : "images/news/news7.jpg",
+      "src" : "images/news/news7_s.jpg",
       "alt" : "Rey's journey"
     }
   },
@@ -68,7 +68,7 @@
     "id" : 8,
     "heading" : "NEW SOLO: A STAR WARS STORY PHOTOS AND DETAILS REVEALED",
     "image" : {
-      "src" : "images/news/news8.jpg",
+      "src" : "images/news/news8_s.jpg",
       "alt" : "Young Solo"
     }
   },
@@ -77,7 +77,7 @@
     "id" : 9,
     "heading" : "THE INTRODUCTION OF KYLO REN AND THE MEANING OF A MASK",
     "image" : {
-      "src" : "images/news/news9.jpg",
+      "src" : "images/news/news9_large.jpg",
       "alt" : "Kylo Ren"
     },
     "desc" : "Our first meeting with the villain in the force awakens tells us only part of who he is -- or wants to be. The creators of The Force Awakens chose to not shy away from comparisons that this new Star Wars villain would draw to one of the most iconic bad guys of all time, Darth Vader..."
@@ -87,7 +87,7 @@
     "id" : 10,
     "heading" : "HOW THE LAST JEDI NOVELIZATION CONNECTS TO A GALAXY OF STAR WARS BOOKS AND COMICS",
     "image" : {
-      "src" : "images/news/news10.jpg",
+      "src" : "images/news/news10_s.jpg",
       "alt" : "Last Jedi"
     }
   },

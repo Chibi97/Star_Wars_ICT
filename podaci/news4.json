@@ -3,33 +3,33 @@
   "date" : "12.3.2018",
   "images" : [
     {
-      "src" : "images/news/news4_1.jpg",
+      "src" : "images/news/news4.jpg",
       "alt" : "visual dictionary"
     },
 
     {
-      "src" : "images/news/news4_2.jpg",
+      "src" : "images/news/news4_1.jpg",
       "alt" : "admiral ackbar"
     },
 
     {
-      "src" : "images/news/news4_3.jpg",
+      "src" : "images/news/news4_2.jpg",
       "alt" : "island living"
     },
 
     {
-      "src" : "images/news/news4_4.jpg",
-      "alt" : "holdo in our hearts"
+      "src" : "images/news/news4_3.jpg",
+      "alt" : "holdo"
     },
 
     {
-      "src" : "images/news/news4_5.jpg",
+      "src" : "images/news/news4_4.jpg",
       "alt" : "executing orders"
     },
 
     {
-      "src" : "images/news/news4_6.jpg",
-      "alt" : "last line of defense"
+      "src" : "images/news/news4_5.jpg",
+      "alt" : "red trooper"
     }
   ],
 

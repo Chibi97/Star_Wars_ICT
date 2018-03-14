@@ -3,6 +3,11 @@
   "date" : "1.3.2018.",
   "images" : [
     {
+      "src" : "images/news/news3.jpg",
+      "alt" : "vulptex cookies"
+    },
+
+    {
       "src" : "images/news/news3_1.jpg",
       "alt" : "vulptex"
     },
