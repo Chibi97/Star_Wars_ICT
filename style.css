@@ -430,8 +430,6 @@ footer a {
   z-index:1000;
 }
 
-
-
 .login-modal h1 {
   text-align: center;
   font-size: 3.4rem;
@@ -476,4 +474,34 @@ footer a {
 
 .login-modal span, .input {
   font-size: 1.35rem;
+}
+
+/* ------------------ AUTHOR -----------------*/
+.about-me {
+  font-size:1.7rem;
+  display:flex;
+  align-items:center;
+  flex-flow:column wrap;
+}
+
+.about-me img {
+  border-radius:50%;
+  width:20rem;
+  height:20rem;
+}
+
+#about {
+  width:40%;
+}
+
+#about p {
+  border-left: 3px solid #ffd81f;
+  padding-left: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+#about h1 {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  margin:1em 0;
 }

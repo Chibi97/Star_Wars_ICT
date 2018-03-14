@@ -56,17 +56,17 @@ function modal() {
   modal.hide();
   $(".log-reg").click(function() {
     modal.fadeIn(500);
-    $("body").addClass("background-for-modal");
+    //$("body").addClass("background-for-modal");
   });
 
   $("#close").click(function() {
-    $("body").removeClass("background-for-modal");
+  //  $("body").removeClass("background-for-modal");
     modal.fadeOut(500);
   });
 
   $(document).click(function(e) {
     if(!$(e.target).closest(".login-modal,.log-reg").length) {
-    $("body").removeClass("background-for-modal");
+    //$("body").removeClass("background-for-modal");
     $("body").find(".login-modal").fadeOut(1000);
     }
   });
