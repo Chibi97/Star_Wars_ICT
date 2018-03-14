@@ -26,9 +26,6 @@
             <a href="/gallery.php">Gallery</a>
           </li>
           <li>
-            <a href="/news.php">News</a>
-          </li>
-          <li>
             <a href="#">Author</a>
           </li>
           <li>

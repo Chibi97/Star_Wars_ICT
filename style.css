@@ -367,3 +367,44 @@ footer a {
   font-size: 2rem;
   line-height: 1.7em;
 }
+
+/*----------------  MOVIES  ------------------ */
+#movies {
+  width:100rem;
+  margin:0 auto;
+}
+
+.desc {
+  width:75%;
+  float:left;
+  padding:3em;
+}
+
+.movie img {
+  float:right;
+  height:100%;
+  margin:1.5em;
+}
+
+.movie {
+  background: #161619;
+}
+
+.movie h1 {
+  font-size:3rem;
+  padding-bottom: .7em;
+}
+
+.movie p {
+  font-size: 1.5rem;
+}
+
+#read-more {
+  border:none;
+  background:#FFD81F;
+  padding: 1em;
+  margin:2em 20em;
+  font-weight:700;
+  cursor:pointer;
+
+}

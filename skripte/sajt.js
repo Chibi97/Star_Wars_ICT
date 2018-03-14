@@ -5,15 +5,12 @@ $(document).ready(function() {
   var aniSpeed = 500;
   createFromTemplate();
 
-  //var isScrollingAnimate = false;
   $("#strelica").click(function() {
-    //isScrollingAnimate = true;
     $("html").animate({scrollTop: 0}, 200);
     $("#strelica").fadeOut();
   });
 
   $(document).scroll(function() {
-    //if(isScrollingAnimate) return;
     if($("html").scrollTop() == 0) {
       $("#strelica").fadeOut();
     }
@@ -21,9 +18,6 @@ $(document).ready(function() {
   });
 
   sendvic.click(function() {
-    /*glMeni.css({
-      display: "block"
-    });*/
     glMeni.animate({
       right:0
     }, aniSpeed , function() {
