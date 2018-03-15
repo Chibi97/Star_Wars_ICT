@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>STAR WARS</title>
     <meta charset="utf-8">
-    <title>Star Wars</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="star wars, galaxy, stars, force, rey, luke skywalker, darth vader, han solo, leia, the last jedi, news, stormtrooper"/>
+    <meta name="description" content="Long time ago in a galaxy far, far away... lived one website made for educational purposes and fun."/>
+    <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO: jos meta tagova! -->
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/dvfavicon.ico" >
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway|Dosis:700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   </head>
   <body>

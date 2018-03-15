@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>STAR WARS | Gallery</title>
     <meta charset="utf-8">
-    <title>Star Wars | Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="star wars, luke skywalker, rey, finn, rose, kylo ren, ben solo, han solo, leia, war, battle, evil, good, force, galaxy"/>
+    <meta name="description" content="Never tired of watching SW pics? Then you've come to the right place!"/>
+    <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO: jos meta tagova! -->
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/dvfavicon.ico" >
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Inconsolata|Lobster|Raleway|Dosis:700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="/dist/css/lightbox.min.css" rel="stylesheet">
   </head>
