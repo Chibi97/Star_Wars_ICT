@@ -45,7 +45,7 @@ $(document).ready(function() {
     e.preventDefault();
     validationSU();
   });
-  
+
 });
 
 function slowWrite(element, time) {
@@ -74,17 +74,14 @@ function modal() {
   modal.hide();
   $(".log-reg").click(function() {
     modal.fadeIn(500);
-    //$("body").addClass("background-for-modal");
   });
 
   $("#close").click(function() {
-  //  $("body").removeClass("background-for-modal");
     modal.fadeOut(500);
   });
 
   $(document).click(function(e) {
     if(!$(e.target).closest(".login-modal,.log-reg").length) {
-    //$("body").removeClass("background-for-modal");
     $("body").find(".login-modal").fadeOut(1000);
     }
   });
@@ -92,7 +89,7 @@ function modal() {
 
 function validation() {
   var ok     = [];
-  var email    = document.querySelector(".email");
+  var email  = document.querySelector(".email");
   console.log(email.value);
   var regEmail = /^[a-z]+(\.[a-z]+)+(\.[1-9][0-9]{0,3}\.(0[0-9]|1[0-7]))?\@ict\.edu\.rs$/;
   var spanEmail = document.querySelector(".email-err");

@@ -13,10 +13,10 @@ $(document).ready(function() {
       if(active > 1) {
         $(".news-wrapper").last().append(prevLink);
       }
-      for(var i=1; i <= 12; i++) {
+      for(var i=1; i <= maxVesti; i++) {
         $(".news-wrapper").last().append($(`<a class='vest-link' href='/news.php?vest_id=${i}'>${i}</a>`));
       }
-      if(active < 12) {
+      if(active < maxVesti) {
         $(".news-wrapper").last().append(nextLink);
       }
     }

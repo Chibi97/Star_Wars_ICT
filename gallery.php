@@ -42,23 +42,35 @@
       </nav>
       <section class="stars stars-extended">
         <div class="gallery">
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 1">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/1.jpg' data-lightbox="galerija" data-title="Ray and Luke">
+            <img src="/images/gallery/1_s.jpg" />
           </a>
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 2">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/2.jpg' data-lightbox="galerija" data-title="Porg">
+            <img src="/images/gallery/2_s.jpg" />
           </a>
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 3">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/3.jpg' data-lightbox="galerija" data-title="Luke Skywalker">
+            <img src="/images/gallery/3_s.jpg" />
           </a>
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 4">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/4.jpg' data-lightbox="galerija" data-title="Kylo Ren">
+            <img src="/images/gallery/4_s.jpg" />
           </a>
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 5">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/5.jpg' data-lightbox="galerija" data-title="Finn and Rose">
+            <img src="/images/gallery/5_s.jpg" />
           </a>
-          <a href='/images/primer.jpg' data-lightbox="galerija" data-title="Moj Naslov 6">
-            <img src="/images/primer.jpg" />
+          <a href='/images/gallery/6.jpg' data-lightbox="galerija" data-title="Finn vs Phasma">
+            <img src="/images/gallery/6_s.jpg" />
+          </a>
+
+          <a href='/images/gallery/7.jpg' data-lightbox="galerija" data-title="Leia Organa">
+            <img src="/images/gallery/7_s.jpg" />
+          </a>
+
+          <a href='/images/gallery/8.jpg' data-lightbox="galerija" data-title="Snoke's personal red guard">
+            <img src="/images/gallery/8_s.jpg" />
+          </a>
+
+          <a href='/images/gallery/9.jpg' data-lightbox="galerija" data-title="Battle">
+            <img src="/images/gallery/9_s.jpg" />
           </a>
         </div>
       </section>
