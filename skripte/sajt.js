@@ -95,7 +95,7 @@ function validation() {
   var spanEmail = document.querySelector(".email-err");
   if(!regEmail.test(email.value)) {
     email.style.border = "2px solid #ffd81f";
-    spanEmail.innerHTML = "You've made a mistake young padawan! Btw, only iCT students/professors allowed in!";
+    spanEmail.innerHTML = "You've made a mistake young padawan! Btw, only ICT students/professors allowed in!";
   } else {
     ok.push("Email: " + email.value);
     email.style.border ="1px solid #FFD81F";

@@ -82,6 +82,14 @@ li {
   margin:.7em;
 }
 
+#close {
+  font-size:4rem;
+  cursor:pointer;
+  position:absolute;
+  right:38px;
+  top:10px;
+}
+
 /* ---------- HEADER ---------- */
 header {
   width:100%;
@@ -124,7 +132,6 @@ header {
 /* ---------- NAVIGATION ---------- */
 .gl-meni {
   text-align:left;
-  /*background: rgba(0,0,0, 0.3); */
   background:#0e0d10;
   position:fixed;
   z-index:999;
@@ -173,7 +180,6 @@ header {
 }
 
 /* ---------- ACTORS ---------- */
-
 .actors {
   margin: 5em 0;
   display: flex;
@@ -205,7 +211,7 @@ header {
   color:#c5a305;
 }
 
-/* ---------- NEWS ---------- */
+/* ---------- NEWS-SLIDER ---------- */
 .news-container {
   display: flex;
   flex-flow:row wrap;
@@ -320,6 +326,7 @@ footer a {
 
 /* ---------- GALLERY ---------- */
 .gallery {
+  margin: 3em 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -337,9 +344,10 @@ footer a {
 
 .gallery img {
   margin: 2.5rem;
+  width:400px;
 }
 
-/* ---------- NEWS - page ---------- */
+/* ---------- NEWS - PAGE ---------- */
 .news-wrapper {
   max-width: 100rem;
   padding: 5em;
@@ -368,44 +376,8 @@ footer a {
   line-height: 1.7em;
 }
 
-/*----------------  MOVIES  ------------------ */
-#movies {
-  width:100rem;
-  margin:0 auto;
-}
-
-.desc {
-  width:75%;
-  float:left;
-  padding:3em;
-}
-
-.movie img {
-  float:right;
-  height:100%;
-  margin:1.5em;
-}
-
-.movie {
-  background: #161619;
-}
-
-.movie h1 {
-  font-size:3rem;
-  padding-bottom: .7em;
-}
-
-.movie p {
-  font-size: 1.5rem;
-}
-
-#read-more {
-  border:none;
-  background:#FFD81F;
-  padding: 1em;
-  margin:2em 20em;
-  font-weight:700;
-  cursor:pointer;
+p.news-parag:last-of-type {
+  margin-bottom: 2em;
 }
 
 /* ------------- MODAL -------------- */
@@ -464,21 +436,13 @@ footer a {
   border: 1px solid #FFD81F;
 }
 
-#close {
-  font-size:4rem;
-  cursor:pointer;
-  position:absolute;
-  right:38px;
-  top:10px;
-}
-
 .login-modal span, .input {
   font-size: 1.35rem;
 }
 
 .vest-link {
   font-size: 2.5rem;
-  margin: .2em;
+  margin: .7em;
 }
 
 /* ------------------ AUTHOR -----------------*/
