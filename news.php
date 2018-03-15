@@ -3,7 +3,7 @@
   <head>
     <title>STAR WARS | News</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="star wars, the last jedi, force of sound, mark hamill, walk of fame, crystal fox cookie, visual dictionary, importance of teaching, bomber, mirror cave, new solo, kylo ren, meaning of mask, book, comic, movie, franchise, icons of galaxy"/>
+    <meta name="keywords" content="star wars, the last jedi, force of sound, mark hamill, walk of fame, crystal fox cookie, visual dictionary, importance of teaching, bomber, mirror cave, new solo, kylo ren, meaning of mask, book, comic, movie, franchise, icons of galaxy,  news, gain, rights, password, sign"/>
     <meta name="description" content="Interested in the events that evolve SW universe? Join us and read many interesting articles!"/>
     <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

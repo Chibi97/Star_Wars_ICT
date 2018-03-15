@@ -3,7 +3,7 @@
   <head>
     <title>STAR WARS | Author</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="star wars, about, author, web design, web programming, ICT college, IT, passion, galaxy, best"/>
+    <meta name="keywords" content="star wars, about, author, web design, web programming, ICT college, IT, passion, galaxy, best,  news, gain, rights, password, sign"/>
     <meta name="description" content="It'd be pitty if you don't at least see who the author of this website is!"/>
     <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

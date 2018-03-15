@@ -3,7 +3,7 @@
   <head>
     <title>STAR WARS</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="star wars, galaxy, stars, force, rey, luke skywalker, darth vader, han solo, leia, the last jedi, news, stormtrooper"/>
+    <meta name="keywords" content="star wars, galaxy, stars, force, rey, luke skywalker, darth vader, han solo, leia, the last jedi, news, gain, rights, password, sign"/>
     <meta name="description" content="Long time ago in a galaxy far, far away... lived one website made for educational purposes and fun."/>
     <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

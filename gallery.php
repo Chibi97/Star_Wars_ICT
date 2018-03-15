@@ -3,7 +3,7 @@
   <head>
     <title>STAR WARS | Gallery</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="star wars, luke skywalker, rey, finn, rose, kylo ren, ben solo, han solo, leia, war, battle, evil, good, force, galaxy"/>
+    <meta name="keywords" content="star wars, luke skywalker, rey, finn, rose, kylo ren, ben solo, han solo, leia, war, battle, evil, good, force, galaxy,  news, gain, rights, password, sign"/>
     <meta name="description" content="Never tired of watching SW pics? Then you've come to the right place!"/>
     <meta name="author" content="mailto:olja.ivkovic.34.16@ict.edu.rs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

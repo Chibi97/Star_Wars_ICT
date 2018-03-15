@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://starwars-fanpage.herokuapp.com/">
+<url>
+<loc>https://starwars-fanpage.herokuapp.com/index.php</loc>
+<lastmod>2018-03-13</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://starwars-fanpage.herokuapp.com/gallery.php</loc>
+<lastmod>2018-03-12</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://starwars-fanpage.herokuapp.com/news.php</loc>
+<lastmod>2018-03-12</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://starwars-fanpage.herokuapp.com/author.php</loc>
+<lastmod>2018-03-12</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://starwars-fanpage.herokuapp.com/starwars.pdf</loc>
+<lastmod>2018-03-12</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+</urlset>
