@@ -390,8 +390,177 @@ $(document).ready(function() {
       dataTitle : "Jedi Masters on the other side",
       imgS : "images/gallery/56_s.jpg",
       movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/57.jpg",
+      dataTitle : "Discovering a droid near the base",
+      imgS : "images/gallery/57_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/58.jpg",
+      dataTitle : "Empires' walkers",
+      imgS : "images/gallery/58_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/59.jpg",
+      dataTitle : "Luke as a pilot",
+      imgS : "images/gallery/59_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/60.jpg",
+      dataTitle : "Master Yoda",
+      imgS : "images/gallery/60_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/61.jpg",
+      dataTitle : "Darth Vader and Darth Sidious",
+      imgS : "images/gallery/61_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/62.jpg",
+      dataTitle : "Leia and Han",
+      imgS : "images/gallery/62_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/63.jpg",
+      dataTitle : "Han vs Darth Vader",
+      imgS : "images/gallery/63_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/64.jpg",
+      dataTitle : "The group is captures by Vader",
+      imgS : "images/gallery/64_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/65.jpg",
+      dataTitle : "Vader vs Luke",
+      imgS : "images/gallery/65_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/66.jpg",
+      dataTitle : "Chewbacca and Lando",
+      imgS : "images/gallery/66_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/67.jpg",
+      dataTitle : "Watching Falcon depart",
+      imgS : "images/gallery/67_s.jpg",
+      movie : "TESB"
+    },
+
+    {
+      img  : "/images/gallery/68.jpg",
+      dataTitle : "Leia gives R2D2 a video message",
+      imgS : "images/gallery/68_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/69.jpg",
+      dataTitle : "Darth Vader and an officer",
+      imgS : "images/gallery/69_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/70.jpg",
+      dataTitle : "Luke Skywalker",
+      imgS : "images/gallery/70_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/71.jpg",
+      dataTitle : "\" Help me Obi-Wan Kenobi, you are my only hope...\"",
+      imgS : "images/gallery/71_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/72.jpg",
+      dataTitle : "Tarkin, Leia and Vader",
+      imgS : "images/gallery/72_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/73.jpg",
+      dataTitle : "Han and Luke as stormtroopers",
+      imgS : "images/gallery/73_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/74.jpg",
+      dataTitle : "Obi-Wan Kenobi deactivating tracktor beam",
+      imgS : "images/gallery/74_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/75.jpg",
+      dataTitle : "Obi-Wan vs Darth Vader",
+      imgS : "images/gallery/75_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/76.jpg",
+      dataTitle : "Pilots",
+      imgS : "images/gallery/76_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/77.jpg",
+      dataTitle : "Han Solo and Luke as a pilot",
+      imgS : "images/gallery/77_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/78.jpg",
+      dataTitle : "Leia and officers in the control room",
+      imgS : "images/gallery/78_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/79.jpg",
+      dataTitle : "Deathstar and Millenium Falcon",
+      imgS : "images/gallery/79_s.jpg",
+      movie : "ANH"
+    },
+
+    {
+      img  : "/images/gallery/80.jpg",
+      dataTitle : "Celebration",
+      imgS : "images/gallery/80_s.jpg",
+      movie : "ANH"
     }
   ];
+
   popuniDDL();
   napraviSve(imgs);
   $("#prepand select").change(function() {
@@ -430,11 +599,4 @@ function popuniDDL() {
 
 function filter(array) {
   console.log(array);
-  var zaIscrtavanje = [];
-  var selektovani;
-  if($("select").val() == "All") {
-    selektovani = "all";
-  }
-
-
 }
