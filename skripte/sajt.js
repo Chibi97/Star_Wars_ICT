@@ -7,6 +7,16 @@ $(document).ready(function() {
   slowWrite($("#slow-text"), 200);
   slowWrite($("#about h1"), 200);
 
+  $(".fab").hover(function() {
+    $(this).stop().animate({
+      fontSize : "3.5rem"
+    }, 200);
+  }, function() {
+    $(this).stop().animate({
+      fontSize : "3rem"
+    }, 200);
+  });
+
   $("#strelica").click(function() {
     $("html").animate({scrollTop: 0}, 200);
     $("#strelica").fadeOut();

@@ -569,7 +569,6 @@ $(document).ready(function() {
 });
 
 function napraviJednog(obj,i) {
-  // parametar niz[obj]
   var template = "<a href='" + obj.img +
     "' data-lightbox='galerija'" +
     "data-title='" + obj.dataTitle +
@@ -598,14 +597,5 @@ function popuniDDL() {
 }
 
 function filter(array) {
-  console.log(array);
-/*  var selectedIndex = $("#prepand select").selectedIndex;
-  var options       = $("#prepand option");
-  var zaIscrtavanje = [];
-  var selektovani;
-  if(options[selectedIndex].val() == "All") {
-    selektovani = "all";
-  } else {
-    selektovani = array[]
-  }*/
+  
 }
