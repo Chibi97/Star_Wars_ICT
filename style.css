@@ -96,6 +96,7 @@ li {
 header {
   width:100%;
   margin-bottom: 2em;
+  position:relative;
 }
 
 .stars {
@@ -328,7 +329,7 @@ footer a {
 
 /* ---------- GALLERY ---------- */
 .gallery {
-  margin: 3em 0;
+  margin: 10em 0 3em;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -347,6 +348,25 @@ footer a {
 .gallery img {
   margin: 2.5rem;
   width:400px;
+}
+
+#prepand {
+  width:100%;
+  text-align: center;
+  position:absolute;
+}
+
+#prepand select {
+  background: #0e0d10;
+  color: #ffd81f;
+  border-radius: 20px;
+  outline: none;
+  border-color: #ffd81f;
+  width: 20em;
+  height: 3em;
+  padding-left: 2em;
+  font-family: 'Raleway', sans-serif;
+  margin-top:3.5em;
 }
 
 /* ---------- NEWS - PAGE ---------- */
