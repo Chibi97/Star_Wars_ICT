@@ -42,9 +42,11 @@
         <button class="far fa-times-circle" id="x"></button>
       </nav>
       <div id="prepand">
-        <select>
+        <div class="custom-select">
+          <select>
 
-        </select>
+          </select>
+        </div>
       </div>
       <section class="stars stars-extended">
         <div class="gallery">
