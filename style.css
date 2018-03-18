@@ -137,7 +137,7 @@ header {
   text-align:left;
   background:#0e0d10;
   position:fixed;
-  z-index:999;
+  z-index:998;
   height:100vh;
   width:28rem;
   right:-28rem;
@@ -356,7 +356,7 @@ footer a {
   position:absolute;
 }
 
-/* Custom select css */
+/* ---------------- CUSTOM SELECTBOX ---------------- */
 .custom-select {
   position: relative;
   font-size: 1.5rem;
@@ -370,9 +370,8 @@ footer a {
 }
 
 .select-selected {
-  background-color: black;
   border-radius: 10px;
-  border: 2px solid #ffd81f;
+  border: 1.5px solid #ffd81f;
 }
 
 .select-selected:after {
@@ -399,7 +398,7 @@ footer a {
 
 .select-items {
   position: absolute;
-  background-color: black;
+  background-color: #161619;
   top: 100%;
   left: 0;
   right: 0;
@@ -454,6 +453,7 @@ p.news-parag:last-of-type {
   height: 100%;
   background: black;
   opacity: 0.7;
+  z-index: 999;
 }
 
 .login-modal {
@@ -467,6 +467,7 @@ p.news-parag:last-of-type {
   transform: translate(-50%, -50%);
   padding: 3em 1.2em;
   z-index:1000;
+  visibility: hidden;
 }
 
 .login-modal h1 {

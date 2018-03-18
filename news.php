@@ -83,7 +83,7 @@
       <div class="modal-col">
         <h1>sign up</h1>
         <form>
-          <label>Name and lastname</label>
+          <label>Name and last name</label>
           <input type="text" placeholder="Name and last name" class="fnln"/>
           <span class="error fnln-err"></span>
           <label>Student ID</label>

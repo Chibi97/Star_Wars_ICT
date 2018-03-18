@@ -655,7 +655,7 @@ function napraviSve(niz) {
 
 function popuniDDL() {
   var select = $("#prepand select");
-  var opt    = ["All", "The Last Jedi", "The Force Awakens","Rogue One","Revenge of the Sith", "Attack of the Clones", "Phantom Menace","Return of the Jedi", "The Empire Strikes Back", "A New Hope"];
+  var opt    = ["All", "The Last Jedi", "The Force Awakens","Rogue One","Revenge of the Sith", "Attack of the Clones", "The Phantom Menace","Return of the Jedi", "The Empire Strikes Back", "A New Hope"];
   $.each(opt, function(i, elem) {
     var option = $("<option>").text(elem);
     option.attr("value", elem);

@@ -81,17 +81,25 @@ function createFromTemplate() {
 
 function modal() {
   var modal = $(".login-modal");
+  var fader = $("<div class='background-for-modal'>");
   modal.hide();
   $(".log-reg").click(function() {
+    modal.css("visibility", "visible");
+    $('body').css('overflow', 'hidden');
+    $('body').prepend(fader);
     modal.fadeIn(500);
   });
 
   $("#close").click(function() {
+    $('body').find('.background-for-modal').remove();
+      $('body').css('overflow', 'visible');
     modal.fadeOut(500);
   });
 
   $(document).click(function(e) {
     if(!$(e.target).closest(".login-modal,.log-reg").length) {
+    $('body').css('overflow', 'visible');
+    $('body').find('.background-for-modal').remove();
     $("body").find(".login-modal").fadeOut(1000);
     }
   });
