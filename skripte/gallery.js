@@ -124,9 +124,168 @@ $(document).ready(function() {
       dataTitle : "Finn vs Kylo",
       imgS : "images/gallery/18_s.jpg",
       movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/19.jpg",
+      dataTitle : "Meeting",
+      imgS : "images/gallery/19_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/20.jpg",
+      dataTitle : "Galn with team workers",
+      imgS : "images/gallery/20_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/21.jpg",
+      dataTitle : "Tarkin",
+      imgS : "images/gallery/21_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/22.jpg",
+      dataTitle : "Jyn",
+      imgS : "images/gallery/22_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/23.jpg",
+      dataTitle : "Last hug",
+      imgS : "images/gallery/23_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/24.jpg",
+      dataTitle : "Jyn and Cassian",
+      imgS : "images/gallery/24_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/25.jpg",
+      dataTitle : "Yavin 4",
+      imgS : "images/gallery/25_s.jpg",
+      movie : "RO"
+    },
+
+    {
+      img  : "/images/gallery/26.jpg",
+      dataTitle : "Anakin and Palpatine",
+      imgS : "images/gallery/26_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/27.jpg",
+      dataTitle : "Anakin and Obi-Wan",
+      imgS : "images/gallery/27_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/28.jpg",
+      dataTitle : "Obi-Wan and Yoda",
+      imgS : "images/gallery/28_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/29.jpg",
+      dataTitle : "Palpatine vs Made Windu",
+      imgS : "images/gallery/29_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/30.jpg",
+      dataTitle : "Yoda fighting",
+      imgS : "images/gallery/30_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/31.jpg",
+      dataTitle : "Birth of Luke and Leia",
+      imgS : "images/gallery/31_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/32.jpg",
+      dataTitle : "Anakin vs Obi-Wan",
+      imgS : "images/gallery/32_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/33.jpg",
+      dataTitle : "Vader and Sidious watching over Deathstar",
+      imgS : "images/gallery/33_s.jpg",
+      movie : "ROTS"
+    },
+
+    {
+      img  : "/images/gallery/34.jpg",
+      dataTitle : "Anakin meets Padme",
+      imgS : "images/gallery/34_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/35.jpg",
+      dataTitle : "Obi-Wan and Boba Fett",
+      imgS : "images/gallery/35_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/36.jpg",
+      dataTitle : "Padme and Anakin",
+      imgS : "images/gallery/36_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/37.jpg",
+      dataTitle : "Coucil",
+      imgS : "images/gallery/37_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/38.jpg",
+      dataTitle : "Captured in the arena",
+      imgS : "images/gallery/38_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/39.jpg",
+      dataTitle : "Fight",
+      imgS : "images/gallery/39_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/40.jpg",
+      dataTitle : "Republic assault ship",
+      imgS : "images/gallery/40_s.jpg",
+      movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/41.jpg",
+      dataTitle : "Wedding",
+      imgS : "images/gallery/41_s.jpg",
+      movie : "AOTC"
     }
-
-
   ];
   popuniDDL();
   napraviSve(imgs);
