@@ -327,6 +327,69 @@ $(document).ready(function() {
       dataTitle : "Trade Federation explodes",
       imgS : "images/gallery/47_s.jpg",
       movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/48.jpg",
+      dataTitle : "Darth Sidious",
+      imgS : "images/gallery/48_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/49.jpg",
+      dataTitle : "Obi-Wan and Luke",
+      imgS : "images/gallery/49_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/50.jpg",
+      dataTitle : "Chewie, Han, Leia, Luke, C3PO and R2D2",
+      imgS : "images/gallery/50_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/51.jpg",
+      dataTitle : "Luke and Han",
+      imgS : "images/gallery/51_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/52.jpg",
+      dataTitle : "Darth Vader and Luke",
+      imgS : "images/gallery/52_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/53.jpg",
+      dataTitle : "Lando",
+      imgS : "images/gallery/53_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/54.jpg",
+      dataTitle : "Han Solo",
+      imgS : "images/gallery/54_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/55.jpg",
+      dataTitle : "Darth Vader without mask",
+      imgS : "images/gallery/55_s.jpg",
+      movie : "ROTJ"
+    },
+
+    {
+      img  : "/images/gallery/56.jpg",
+      dataTitle : "Jedi Masters on the other side",
+      imgS : "images/gallery/56_s.jpg",
+      movie : "ROTJ"
     }
   ];
   popuniDDL();
