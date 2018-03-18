@@ -285,6 +285,48 @@ $(document).ready(function() {
       dataTitle : "Wedding",
       imgS : "images/gallery/41_s.jpg",
       movie : "AOTC"
+    },
+
+    {
+      img  : "/images/gallery/42.jpg",
+      dataTitle : "Qui-Gon, Padme and Jar Jar",
+      imgS : "images/gallery/42_s.jpg",
+      movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/43.jpg",
+      dataTitle : "Dinner with little Anakin",
+      imgS : "images/gallery/43_s.jpg",
+      movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/44.jpg",
+      dataTitle : "Qui-Gon vs Darth Maul",
+      imgS : "images/gallery/44_s.jpg",
+      movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/45.jpg",
+      dataTitle : "Senate meeting",
+      imgS : "images/gallery/45_s.jpg",
+      movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/46.jpg",
+      dataTitle : "Darth Maul",
+      imgS : "images/gallery/46_s.jpg",
+      movie : "TPM"
+    },
+
+    {
+      img  : "/images/gallery/47.jpg",
+      dataTitle : "Trade Federation explodes",
+      imgS : "images/gallery/47_s.jpg",
+      movie : "TPM"
     }
   ];
   popuniDDL();
