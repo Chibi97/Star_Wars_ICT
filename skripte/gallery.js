@@ -46,7 +46,7 @@ $(document).ready(function() {
       img  : "/images/gallery/7.jpg",
       dataTitle : "Leia Organa",
       imgS : "images/gallery/7_s.jpg",
-      movie : "RO"
+      movie : "LJ"
     },
 
     {
@@ -60,8 +60,71 @@ $(document).ready(function() {
       img  : "/images/gallery/9.jpg",
       dataTitle : "Battle",
       imgS : "images/gallery/9_s.jpg",
+      movie : "LJ"
+    },
+
+    {
+      img  : "/images/gallery/10.jpg",
+      dataTitle : "Han and Chewie",
+      imgS : "images/gallery/10_s.jpg",
       movie : "TFA"
-    }
+    },
+
+    {
+      img  : "/images/gallery/11.jpg",
+      dataTitle : "Stormtroopers",
+      imgS : "images/gallery/11_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/12.jpg",
+      dataTitle : "Rey, Finn and BB-8",
+      imgS : "images/gallery/12_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/13.jpg",
+      dataTitle : "Darth Vader's helmet",
+      imgS : "images/gallery/13_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/14.jpg",
+      dataTitle : "Map to Luke",
+      imgS : "images/gallery/14_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/15.jpg",
+      dataTitle : "Han and Ben Solo",
+      imgS : "images/gallery/15_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/16.jpg",
+      dataTitle : "Leia and Han",
+      imgS : "images/gallery/16_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/17.jpg",
+      dataTitle : "Poe and BB-8",
+      imgS : "images/gallery/17_s.jpg",
+      movie : "TFA"
+    },
+
+    {
+      img  : "/images/gallery/18.jpg",
+      dataTitle : "Finn vs Kylo",
+      imgS : "images/gallery/18_s.jpg",
+      movie : "TFA"
+    },
   ];
   popuniDDL();
   napraviSve(imgs);
@@ -105,7 +168,7 @@ function filter(array) {
   var selektovani;
   if($("select").val() == "All") {
     selektovani = "all";
-  } 
+  }
 
 
 }
