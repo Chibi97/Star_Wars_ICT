@@ -124,7 +124,9 @@ $(document).ready(function() {
       dataTitle : "Finn vs Kylo",
       imgS : "images/gallery/18_s.jpg",
       movie : "TFA"
-    },
+    }
+
+
   ];
   popuniDDL();
   napraviSve(imgs);
