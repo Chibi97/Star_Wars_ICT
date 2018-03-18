@@ -356,17 +356,62 @@ footer a {
   position:absolute;
 }
 
-#prepand select {
-  background: #0e0d10;
-  color: #ffd81f;
-  border-radius: 20px;
-  outline: none;
-  border-color: #ffd81f;
+/* Custom select css */
+.custom-select {
+  position: relative;
+  font-size: 1.5rem;
   width: 20em;
-  height: 3em;
-  padding-left: 2em;
-  font-family: 'Raleway', sans-serif;
-  margin-top:3.5em;
+  margin: 0 auto;
+  margin-top: 3.5em;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid #ffd81f;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #ffd81f transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #ffd81f transparent;
+  top: 7px;
+}
+
+.select-items div, .select-selected {
+  color: #ffd81f;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ---------- NEWS - PAGE ---------- */
