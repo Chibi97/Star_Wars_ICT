@@ -108,7 +108,6 @@ function modal() {
 function validation() {
   var ok     = [];
   var email  = document.querySelector(".email");
-  console.log(email.value);
   var regEmail = /^[a-z]+(\.[a-z]+)+(\.[1-9][0-9]{0,3}\.(0[0-9]|1[0-7]))?\@ict\.edu\.rs$/;
   var spanEmail = document.querySelector(".email-err");
   if(!regEmail.test(email.value)) {
@@ -152,8 +151,6 @@ function validationSU() {
   var spanIndex = document.querySelector(".index-err");
   var regIndex = /^[1-9][0-9]{0,3}\/(0[0-9]|1[0-7])$/;
   var condition = index.value.split("/");
-  console.log(condition);
-  console.log(Number(condition[0]));
   if(!regIndex.test(index.value) || Number(condition[0]) >= 2000) {
     index.style.border = "2px solid #ffd81f";
     spanIndex.innerHTML = "The format is n(nnn)/yy. Only numbers and slash allowed.";
@@ -192,6 +189,5 @@ function goodJob(correct) {
   correct.forEach(function(input) {
     template += '<p class="input">' + input + '</p><br/>'
   });
-  console.log(template);
   document.querySelector("#validacija").innerHTML = template;
 }
