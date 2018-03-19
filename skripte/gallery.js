@@ -135,7 +135,7 @@ $(document).ready(function() {
 
     {
       img  : "/images/gallery/20.jpg",
-      dataTitle : "Galn with team workers",
+      dataTitle : "Galen with team workers",
       imgS : "images/gallery/20_s.jpg",
       movie : "Rogue One"
     },
@@ -198,7 +198,7 @@ $(document).ready(function() {
 
     {
       img  : "/images/gallery/29.jpg",
-      dataTitle : "Palpatine vs Made Windu",
+      dataTitle : "Palpatine vs Mace Windu",
       imgS : "images/gallery/29_s.jpg",
       movie : "Revenge of the Sith"
     },
@@ -254,7 +254,7 @@ $(document).ready(function() {
 
     {
       img  : "/images/gallery/37.jpg",
-      dataTitle : "Coucil",
+      dataTitle : "Council",
       imgS : "images/gallery/37_s.jpg",
       movie : "Attack of the Clones"
     },
@@ -443,7 +443,7 @@ $(document).ready(function() {
 
     {
       img  : "/images/gallery/64.jpg",
-      dataTitle : "The group is captures by Vader",
+      dataTitle : "The group is captured by Vader",
       imgS : "images/gallery/64_s.jpg",
       movie : "The Empire Strikes Back"
     },
